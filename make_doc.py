@@ -57,7 +57,7 @@ pdf.set_text_color(15, 30, 70)
 pdf.cell(0, 6.5, clean("Kuku AI Generalist Assignment - Problem 1: Find the Promos"), ln=1)
 pdf.set_font("Helvetica", "", 8.5)
 pdf.set_text_color(80, 80, 80)
-pdf.cell(0, 4.5, clean("Show: I Married a Broken Soldier. He was a Duke (50 episodes)   |   Prototype: CLI + Streamlit + Swappable LLM"), ln=1)
+pdf.cell(0, 4.5, clean("Prototype Repo: https://github.com/rajvk23/promobox   |   Raw Outputs: https://github.com/rajvk23/promobox/tree/main/outputs"), ln=1)
 pdf.ln(1.5)
 
 pdf.h1("1. Problem Choice, Framing & Explicit Assumptions")
