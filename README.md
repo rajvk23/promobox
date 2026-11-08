@@ -1,5 +1,10 @@
 # Microdrama Promo Finder (Kuku — Problem 1)
 
+- **Live Hosted App:** [https://promobox-p5ztlogtutmnxgvxcky2ea.streamlit.app/](https://promobox-p5ztlogtutmnxgvxcky2ea.streamlit.app/)
+- **GitHub Repository:** [https://github.com/rajvk23/promobox](https://github.com/rajvk23/promobox)
+- **Raw Outputs (All 50 Episodes):** [`outputs/`](https://github.com/rajvk23/promobox/tree/main/outputs) (`promos.md`, `promos.json`, `promos.csv`)
+- **2-Page Solution Doc (PDF):** [`solution_doc.pdf`](https://github.com/rajvk23/promobox/blob/main/solution_doc.pdf)
+
 Reads timestamped microdrama screenplays (`.txt`), proposes boundary-safe 20–60 s clips, scores and ranks them through a 4-stage pipeline, and outputs exact timestamps, hook, cliffhanger, and a one-line editorial rationale.
 
 ## Quick Start (works on any fresh episode or folder)
