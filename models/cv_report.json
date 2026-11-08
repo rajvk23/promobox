@@ -1,0 +1,103 @@
+{
+  "episodes": 50,
+  "hook": {
+    "n": 627,
+    "positives": 47,
+    "hand": {
+      "leave_episode_out_auc": 0.789,
+      "std": 0.03
+    },
+    "tfidf": {
+      "leave_episode_out_auc": 0.791,
+      "std": 0.041
+    },
+    "both": {
+      "leave_episode_out_auc": 0.802,
+      "std": 0.033
+    },
+    "shipped_variant": "hand",
+    "tfidf_top_positive_tokens(diagnostic)": [
+      "in",
+      "emo_mocking",
+      "emo_formal",
+      "family",
+      "emo_savoring",
+      "emo_resonant",
+      "it is",
+      "stay",
+      "in the",
+      "forward",
+      "two",
+      "rupert",
+      "look at",
+      "there",
+      "it"
+    ],
+    "hand_feature_weights": {
+      "n_dialogue": -0.81,
+      "n_words": 0.49,
+      "excl": -0.63,
+      "question": -0.36,
+      "ellipsis/dash": -0.1,
+      "emotion_intensity": 0.11,
+      "hook_words": -0.2,
+      "reveal_phrases": 0.17,
+      "you_count": 0.27,
+      "last_is_question": 0.3,
+      "last_trails_off": -0.66,
+      "last_len": 0.15,
+      "weak_opener": -0.64,
+      "resolution_words": -0.43
+    }
+  },
+  "cliff": {
+    "n": 822,
+    "positives": 28,
+    "hand": {
+      "leave_episode_out_auc": 0.826,
+      "std": 0.085
+    },
+    "tfidf": {
+      "leave_episode_out_auc": 0.839,
+      "std": 0.072
+    },
+    "both": {
+      "leave_episode_out_auc": 0.854,
+      "std": 0.074
+    },
+    "shipped_variant": "hand",
+    "tfidf_top_positive_tokens(diagnostic)": [
+      "well",
+      "ten days",
+      "eyes",
+      "ten",
+      "days",
+      "as the",
+      "days is",
+      "emo_gasping",
+      "choose your",
+      "time",
+      "choose",
+      "witnesses",
+      "who",
+      "emo_malicious",
+      "emo_chilling"
+    ],
+    "hand_feature_weights": {
+      "n_dialogue": -1.64,
+      "n_words": 0.93,
+      "excl": -0.1,
+      "question": 0.54,
+      "ellipsis/dash": 0.66,
+      "emotion_intensity": 0.23,
+      "hook_words": 0.04,
+      "reveal_phrases": -0.41,
+      "you_count": 0.32,
+      "last_is_question": -0.19,
+      "last_trails_off": -0.92,
+      "last_len": 0.05,
+      "weak_opener": 0.14,
+      "resolution_words": -0.15
+    }
+  }
+}

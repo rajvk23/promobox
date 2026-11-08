@@ -1,0 +1,4843 @@
+{
+  "meta": {
+    "episodes": 50,
+    "learned_model": true,
+    "llm": "gemini-3.1-flash-lite",
+    "tournament": "llm",
+    "pool": 12
+  },
+  "promos": [
+    {
+      "rank": 1,
+      "episode": 31,
+      "segments": [
+        {
+          "start": "02:02.00",
+          "end": "02:40.00"
+        }
+      ],
+      "duration_s": 38.0,
+      "hook": "[ACTION] Catherine's smug expression freezes, her eyes widening in momentary shock and fury as the blow lands squarely.",
+      "cliffhanger": "[ACTION] Juliana recoils back against the hard dungeon wall, gasping for breath in raw terror as the searing iron stops inches from her eyes.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, visual reveal/shock; high curiosity gap (clear alone, wants a next step); stranger's view: A sadistic woman named Catherine torments a chained prisoner named Juliana by threatening to burn a precious book that belonged to Juliana's mother.",
+      "score": 6.12,
+      "tournament_wins": 11.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 7.4,
+        "standalone": 7.1,
+        "intensity": 4.1
+      },
+      "rule_scores": {
+        "hook": 2.8,
+        "cliff": 5.0,
+        "standalone": 6.0,
+        "intensity": 4.1
+      },
+      "learned_scores": {
+        "hook": 7.87,
+        "cliff": 9.81
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the power dynamic between Catherine and Juliana is unclear, specifically why Juliana is chained and why Catherine feels the need to demand a bow.",
+          "The significance of the book is only partially explained as belonging to Juliana's mother, leaving its actual contents or magical properties a mystery."
+        ],
+        "future_questions": [
+          "Will Catherine actually burn the book, or is she just using it to torture Juliana?",
+          "What is the source of the extreme heat Catherine is using to destroy the parchment?",
+          "Will Juliana be able to break free from her chains to save the book?",
+          "What is the ultimate goal of this interrogation or torture session?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 9,
+        "summary": "A sadistic woman named Catherine torments a chained prisoner named Juliana by threatening to burn a precious book that belonged to Juliana's mother.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 8.2
+      }
+    },
+    {
+      "rank": 2,
+      "episode": 24,
+      "segments": [
+        {
+          "start": "00:33.80",
+          "end": "01:10.50"
+        }
+      ],
+      "duration_s": 36.7,
+      "hook": "[ACTION] The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.",
+      "cliffhanger": "NOBLEWOMAN (Furious, Threatening): \"Do you want the same punishment?\"",
+      "why_it_works": "hook: striking action, charged words; cliffhanger: trailing line, ends on question; high curiosity gap (clear alone, wants a next step); stranger's view: A cruel noblewoman physically assaults a maid named Juliana and forces her to scrub a massive, soot-covered fireplace as punishment for overstepping her social standing.",
+      "score": 6.44,
+      "tournament_wins": 8.0,
+      "sub_scores": {
+        "hook": 7.3,
+        "cliff": 7.1,
+        "standalone": 6.5,
+        "intensity": 3.0
+      },
+      "rule_scores": {
+        "hook": 6.6,
+        "cliff": 5.3,
+        "standalone": 6.0,
+        "intensity": 3.0
+      },
+      "learned_scores": {
+        "hook": 8.0,
+        "cliff": 8.9
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "It is unclear why the character is addressed as 'Lady Juliana' if she is being treated as a maid.",
+          "The relationship between the noblewoman, Juliana, and Prudence is undefined, making the power dynamic and the reason for this specific abuse ambiguous."
+        ],
+        "future_questions": [
+          "Will Juliana actually clean the entire hearth, or will she attempt to resist?",
+          "What will happen to Prudence if she continues to plead for Juliana?",
+          "Is there a secret reason behind the noblewoman's intense hatred for Juliana?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "A cruel noblewoman physically assaults a maid named Juliana and forces her to scrub a massive, soot-covered fireplace as punishment for overstepping her social standing.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.95
+      }
+    },
+    {
+      "rank": 3,
+      "episode": 1,
+      "segments": [
+        {
+          "start": "01:47.50",
+          "end": "02:17.50"
+        }
+      ],
+      "duration_s": 30.0,
+      "hook": "LADY IN GOLD GOWN (Viciously Calm): \"You are the daughter people tolerate because they have to.\"",
+      "cliffhanger": "[ACTION] Juliana breathes through the agony, refusing to break down further in front of the congregation.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, sound sting; stranger's view: A woman named Juliana is publicly humiliated and rejected by her former groom, who chooses her sister Clarissa instead, while her own mother defends the sister's status over hers.",
+      "score": 6.27,
+      "tournament_wins": 8.0,
+      "sub_scores": {
+        "hook": 5.7,
+        "cliff": 7.7,
+        "standalone": 6.2,
+        "intensity": 4.7
+      },
+      "rule_scores": {
+        "hook": 4.3,
+        "cliff": 5.5,
+        "standalone": 7.0,
+        "intensity": 4.7
+      },
+      "learned_scores": {
+        "hook": 7.17,
+        "cliff": 9.9
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The relationship between the Lady in the Gold Gown and Juliana is unclear, specifically whether they are sisters or rivals.",
+          "It is unclear why the Matriarch is wearing a bridal gown while Juliana is being rejected by a groom.",
+          "The specific history or event that caused Juliana to lose her 'value' or standing in the eyes of the groom and her family is not explained."
+        ],
+        "future_questions": [
+          "Will Juliana retaliate against the groom and her family for this public humiliation?",
+          "Why is the mother wearing a bridal gown at her daughter's wedding?",
+          "What is the source of the intense animosity between the two women?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 8,
+        "summary": "A woman named Juliana is publicly humiliated and rejected by her former groom, who chooses her sister Clarissa instead, while her own mother defends the sister's status over hers.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.42
+      }
+    },
+    {
+      "rank": 4,
+      "episode": 30,
+      "segments": [
+        {
+          "start": "00:08.80",
+          "end": "00:39.80"
+        }
+      ],
+      "duration_s": 31.0,
+      "hook": "ELDER NOBLEMAN (Cold, Accusatory): \"You have a rat in your cellar, Rupert. And the servants are beginning to smell it.\"",
+      "cliffhanger": "ELDER NOBLEMAN (Fierce, Venomous): \"Then make certain she isn't! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: An intimidating nobleman confronts a panicked man named Rupert about a girl he is holding captive in his cellar to cover up a poisoning scandal.",
+      "score": 6.0,
+      "tournament_wins": 7.5,
+      "sub_scores": {
+        "hook": 5.5,
+        "cliff": 5.9,
+        "standalone": 6.1,
+        "intensity": 7.3
+      },
+      "rule_scores": {
+        "hook": 3.6,
+        "cliff": 2.6,
+        "standalone": 6.0,
+        "intensity": 7.3
+      },
+      "learned_scores": {
+        "hook": 7.38,
+        "cliff": 9.2
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of the 'Ashcroft girl' and why she is being held captive.",
+          "The specific circumstances surrounding the poisoning of the Duchess.",
+          "The nature of the relationship between the Elder Nobleman and Rupert (e.g., are they co-conspirators, or is the Nobleman a superior/blackmailer?)."
+        ],
+        "future_questions": [
+          "Will Rupert actually kill the girl to protect his secret?",
+          "Will the kitchen maids or other servants expose the kidnapping?",
+          "What is the Elder Nobleman's personal stake in keeping the girl silenced?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 9,
+        "summary": "An intimidating nobleman confronts a panicked man named Rupert about a girl he is holding captive in his cellar to cover up a poisoning scandal.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.17
+      }
+    },
+    {
+      "rank": 5,
+      "episode": 50,
+      "segments": [
+        {
+          "start": "00:49.80",
+          "end": "01:18.50"
+        }
+      ],
+      "duration_s": 28.7,
+      "hook": "FATHER THOMAS (Chuckle, Resigned): \"I've told myself that since the dawn in your bedchamber, and here we are again.\"",
+      "cliffhanger": "[ACTION] Agnes's jaw drops open in shock as she stifles a cry.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, visual reveal/shock, sound sting; high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Agnes discovers a priest and a woman engaged in a secret, passionate affair inside an abandoned room.",
+      "score": 6.0,
+      "tournament_wins": 6.0,
+      "sub_scores": {
+        "hook": 4.0,
+        "cliff": 9.2,
+        "standalone": 6.1,
+        "intensity": 4.2
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 8.5,
+        "standalone": 5.0,
+        "intensity": 4.2
+      },
+      "learned_scores": {
+        "hook": 5.92,
+        "cliff": 9.95
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the relationship between Father Thomas and Catherine is unclear, specifically whether this is a long-standing affair or a recent development.",
+          "The identity of Agnes and her specific connection to the two people in the room is not established, making her reaction difficult to contextualize."
+        ],
+        "future_questions": [
+          "Will Agnes expose the affair to others?",
+          "What are the consequences for a priest and a woman caught in this situation in their specific time period?",
+          "How will Father Thomas and Catherine react if they realize they have been discovered?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 9,
+        "summary": "A woman named Agnes discovers a priest and a woman engaged in a secret, passionate affair inside an abandoned room.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.2
+      }
+    },
+    {
+      "rank": 6,
+      "episode": 12,
+      "segments": [
+        {
+          "start": "00:00.50",
+          "end": "00:32.40"
+        }
+      ],
+      "duration_s": 31.9,
+      "hook": "CONSTABLE (Authoritative, Stern): \"Put out your hands, veteran. You are under arrest for theft.\"",
+      "cliffhanger": "CLARISSA (O.S., Continuing taunt): \"...still defending your broken scrap of a man?\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step)",
+      "score": 5.99,
+      "tournament_wins": 5.5,
+      "sub_scores": {
+        "hook": 5.8,
+        "cliff": 5.8,
+        "standalone": 7.2,
+        "intensity": 5.2
+      },
+      "rule_scores": {
+        "hook": 5.0,
+        "cliff": 5.7,
+        "standalone": 6.5,
+        "intensity": 5.2
+      },
+      "learned_scores": {
+        "hook": 6.58,
+        "cliff": 5.84
+      },
+      "curiosity_gap": {
+        "past_confusions": [],
+        "future_questions": [
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 8.0,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 7,
+      "episode": 16,
+      "segments": [
+        {
+          "start": "00:41.20",
+          "end": "01:23.19"
+        }
+      ],
+      "duration_s": 42.0,
+      "hook": "[ACTION] Alexander lifts the thug onto his tiptoes against the cottage wall, glaring with lethal intensity.",
+      "cliffhanger": "[ACTION] Alexander and Juliana gaze deeply into each other's eyes, an unspoken bond forming between them as the ruined garden lies silent beneath the moon.",
+      "why_it_works": "hook: question, charged words; cliffhanger: ends on episode's own cliffhanger, sound sting; stranger's view: After a mysterious man named Alexander violently interrogates a group of thugs who were hired by Gerald Harrington to destroy a garden, he shares a tender, bonding moment with a woman named Juliana.",
+      "score": 5.83,
+      "tournament_wins": 5.0,
+      "sub_scores": {
+        "hook": 6.5,
+        "cliff": 6.6,
+        "standalone": 5.7,
+        "intensity": 2.9
+      },
+      "rule_scores": {
+        "hook": 5.3,
+        "cliff": 5.5,
+        "standalone": 6.0,
+        "intensity": 2.9
+      },
+      "learned_scores": {
+        "hook": 7.71,
+        "cliff": 7.74
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of Gerald Harrington and his specific motive for wanting a garden destroyed is unknown.",
+          "The nature of the relationship between Alexander and Juliana is unclear; it is not established if they are strangers, partners, or employer/employee.",
+          "The history behind Alexander's past as a soldier is referenced but not explained."
+        ],
+        "future_questions": [
+          "Why would Gerald Harrington want to destroy a garden?",
+          "What will Alexander do now that he knows who is behind the attack?",
+          "Will Alexander and Juliana's relationship develop further after this moment of intimacy?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 6,
+        "summary": "After a mysterious man named Alexander violently interrogates a group of thugs who were hired by Gerald Harrington to destroy a garden, he shares a tender, bonding moment with a woman named Juliana.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.42
+      }
+    },
+    {
+      "rank": 8,
+      "episode": 26,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:28.40"
+        }
+      ],
+      "duration_s": 28.4,
+      "hook": "[ACTION] Juliana glances nervously back toward the door, ensuring no guards are near, before turning her full attention back to the ailing Duchess.",
+      "cliffhanger": "[ACTION] The Duchess swallows the remedy with difficulty as Juliana carefully tilts the amber bottle.",
+      "why_it_works": "hook: striking action; high curiosity gap (clear alone, wants a next step)",
+      "score": 5.95,
+      "tournament_wins": 4.5,
+      "sub_scores": {
+        "hook": 6.3,
+        "cliff": 4.0,
+        "standalone": 7.8,
+        "intensity": 6.7
+      },
+      "rule_scores": {
+        "hook": 5.0,
+        "cliff": 1.0,
+        "standalone": 7.5,
+        "intensity": 6.7
+      },
+      "learned_scores": {
+        "hook": 7.58,
+        "cliff": 6.97
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Grace",
+          "back-references"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 8.0,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 9,
+      "episode": 42,
+      "segments": [
+        {
+          "start": "00:01.00",
+          "end": "00:26.50"
+        }
+      ],
+      "duration_s": 25.5,
+      "hook": "[ACTION] Alexander strides deliberately through the pulverized cathedral doorway. Dressed in the regal ducal coat with gold braided cuffs and a lion crest, his scarred face is set with cold, unyielding authority.",
+      "cliffhanger": "BLOND NOBLEMAN (Desperate, Unhinged): \"Why?!\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A scarred man named Alexander enters a cathedral and asserts authority, causing the guards to defy the Blond Nobleman's orders to arrest him.",
+      "score": 5.87,
+      "tournament_wins": 4.0,
+      "sub_scores": {
+        "hook": 5.5,
+        "cliff": 4.5,
+        "standalone": 5.7,
+        "intensity": 9.8
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 8.8,
+        "standalone": 5.0,
+        "intensity": 9.8
+      },
+      "learned_scores": {
+        "hook": 8.98,
+        "cliff": 0.11
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the relationship between Alexander and Juliana is unclear.",
+          "The history behind why the guards refuse to obey the Blond Nobleman is missing.",
+          "The identity of the 'imposter' and why the Blond Nobleman believes Alexander is one is not established."
+        ],
+        "future_questions": [
+          "Why did the guards refuse to arrest Alexander?",
+          "What is Alexander's true identity or claim to power?",
+          "What is the history between Alexander and the Blond Nobleman?",
+          "What will happen to the Blond Nobleman now that he has lost control of his guards?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 8,
+        "summary": "A scarred man named Alexander enters a cathedral and asserts authority, causing the guards to defy the Blond Nobleman's orders to arrest him.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.42
+      }
+    },
+    {
+      "rank": 10,
+      "episode": 2,
+      "segments": [
+        {
+          "start": "01:03.50",
+          "end": "01:50.00"
+        }
+      ],
+      "duration_s": 46.5,
+      "hook": "[ACTION] The matriarch steps into the center aisle, glaring down at Juliana with cold superiority.",
+      "cliffhanger": "[ACTION] Juliana breathes with steady resolve, holding her head high as the solemn orchestral score swells into the final beat.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, threat/reveal line; high curiosity gap (clear alone, wants a next step); stranger's view: After being publicly humiliated and told to leave her former fiancé's wedding, a woman named Juliana regains her composure and delivers a scathing speech that exposes the groom's lack of integrity to the entire chapel.",
+      "score": 5.88,
+      "tournament_wins": 3.5,
+      "sub_scores": {
+        "hook": 4.5,
+        "cliff": 7.9,
+        "standalone": 7.0,
+        "intensity": 3.7
+      },
+      "rule_scores": {
+        "hook": 2.8,
+        "cliff": 6.2,
+        "standalone": 7.0,
+        "intensity": 3.7
+      },
+      "learned_scores": {
+        "hook": 6.14,
+        "cliff": 9.57
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The specific nature of the 'trust' Juliana refers to and why the matriarch and Gerald feel entitled to scold her in public.",
+          "The identity of the 'other woman' who promised Gerald beauty and wealth, and her relationship to the current wedding."
+        ],
+        "future_questions": [
+          "How will the wedding guests react to Juliana's public shaming of the groom?",
+          "Will Juliana face any immediate social or legal consequences for her defiance?",
+          "What will Gerald do now that his reputation has been openly challenged?"
+        ],
+        "standalone_clarity": 8,
+        "cliffhanger_pull": 7,
+        "summary": "After being publicly humiliated and told to leave her former fiancé's wedding, a woman named Juliana regains her composure and delivers a scathing speech that exposes the groom's lack of integrity to the entire chapel.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.95
+      }
+    },
+    {
+      "rank": 11,
+      "episode": 26,
+      "segments": [
+        {
+          "start": "00:52.50",
+          "end": "01:19.40"
+        }
+      ],
+      "duration_s": 26.9,
+      "hook": "[ACTION] The Duchess clutches the blanket against her chest, her breathing quickening with dismay.",
+      "cliffhanger": "DOWAGER DUCHESS (Curious, Searching): \"Then tell me... why is a girl of such noble spirit working as a common maid?\"",
+      "why_it_works": "best available window; weakest on standalone",
+      "score": 6.01,
+      "tournament_wins": 1.5,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 5.4,
+        "standalone": 5.1,
+        "intensity": 10.0
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 2.5,
+        "standalone": 6.0,
+        "intensity": 10.0
+      },
+      "learned_scores": {
+        "hook": 7.09,
+        "cliff": 8.36
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Catherine"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 4.25,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 12,
+      "episode": 45,
+      "segments": [
+        {
+          "start": "00:54.00",
+          "end": "01:23.00"
+        }
+      ],
+      "duration_s": 29.0,
+      "hook": "ALEXANDER (Furious, Cold): \"You poisoned my mother. You tortured my wife.\"",
+      "cliffhanger": "RUPERT (Gasping, Shellshocked): \"Juliana?!\"",
+      "why_it_works": "cliffhanger: threat/reveal line, ends on question; stranger's view: A man publicly confronts a woman for harming his family before shocking a room of aristocrats by revealing his secret marriage to a woman named Juliana.",
+      "score": 5.81,
+      "tournament_wins": 1.5,
+      "sub_scores": {
+        "hook": 5.4,
+        "cliff": 6.2,
+        "standalone": 5.3,
+        "intensity": 6.6
+      },
+      "rule_scores": {
+        "hook": 6.6,
+        "cliff": 5.7,
+        "standalone": 5.0,
+        "intensity": 6.6
+      },
+      "learned_scores": {
+        "hook": 4.22,
+        "cliff": 6.69
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The specific history of how Catherine allegedly poisoned Alexander's mother and tortured his wife.",
+          "The nature of the relationship between Catherine and Alexander that led to this confrontation.",
+          "The identity of Juliana and why her marriage to Alexander is a shocking revelation to the guests."
+        ],
+        "future_questions": [
+          "How will the aristocratic guests react to the revelation of Juliana's status?",
+          "What will Catherine do now that she has been publicly accused and exposed?",
+          "What is the history between Rupert and Juliana that caused his shocked reaction?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 9,
+        "summary": "A man publicly confronts a woman for harming his family before shocking a room of aristocrats by revealing his secret marriage to a woman named Juliana.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 13,
+      "episode": 32,
+      "segments": [
+        {
+          "start": "02:05.40",
+          "end": "02:28.10"
+        }
+      ],
+      "duration_s": 22.7,
+      "hook": "JULIANA (Scathing, Direct): \"You want everyone to believe you are powerful.\"",
+      "cliffhanger": "[ACTION] Catherine hoists the searing branding rod over Juliana with frantic fury.",
+      "why_it_works": "cliffhanger: trailing line, threat/reveal line, ends on question; high curiosity gap (clear alone, wants a next step)",
+      "score": 5.8,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 7.7,
+        "standalone": 7.0,
+        "intensity": 4.4
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 6.3,
+        "standalone": 6.0,
+        "intensity": 4.4
+      },
+      "learned_scores": {
+        "hook": 6.9,
+        "cliff": 9.11
+      },
+      "curiosity_gap": {
+        "past_confusions": [],
+        "future_questions": [
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 8.0,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 14,
+      "episode": 42,
+      "segments": [
+        {
+          "start": "00:54.00",
+          "end": "01:17.50"
+        }
+      ],
+      "duration_s": 23.5,
+      "hook": "ALEXANDER'S MOTHER (Tearful, Proud): \"I saw you again... but seeing you like this... I see my son as he was always meant to be.\"",
+      "cliffhanger": "ALEXANDER (Grim, Vengeful): \"And now, Rupert... we settle what you stole.\"",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, threat/reveal line; stranger's view: A man named Alexander returns home to be publicly declared the rightful Duke by his mother, immediately setting the stage for a confrontation with a man named Rupert.",
+      "score": 5.71,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.6,
+        "cliff": 7.0,
+        "standalone": 5.3,
+        "intensity": 6.7
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 6.0,
+        "standalone": 5.0,
+        "intensity": 6.7
+      },
+      "learned_scores": {
+        "hook": 7.71,
+        "cliff": 7.9
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is Rupert and what exactly did he steal from Alexander?",
+          "Why was Alexander away or 'not himself' before this moment?",
+          "What is the nature of the conflict between Alexander and the gathered nobility?"
+        ],
+        "future_questions": [
+          "How will Rupert react to being confronted?",
+          "What is the nature of the 'settlement' Alexander intends to force?",
+          "Will the nobility accept Alexander's claim, or will they side with Rupert?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A man named Alexander returns home to be publicly declared the rightful Duke by his mother, immediately setting the stage for a confrontation with a man named Rupert.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 15,
+      "episode": 36,
+      "segments": [
+        {
+          "start": "02:57.00",
+          "end": "03:20.75"
+        }
+      ],
+      "duration_s": 23.8,
+      "hook": "[ACTION] Close-up of Alexander's gloved hand clenching into a tight, leather-creaking fist.",
+      "cliffhanger": "[ACTION] Alexander stares resolutely ahead into the dark, snowy woods as the camera holds on his grim, determined expression before cutting to black.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, threat/reveal line, visual reveal/shock, sound sting; stranger's view: A man named Alexander vows to interrupt an upcoming wedding by returning with a dead Duke, implying a violent confrontation.",
+      "score": 5.71,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.0,
+        "cliff": 9.1,
+        "standalone": 4.6,
+        "intensity": 4.9
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 9.1,
+        "standalone": 5.0,
+        "intensity": 4.9
+      },
+      "learned_scores": {
+        "hook": 7.91,
+        "cliff": 9.06
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is Alexander and why does he have 'monstrous' strength?",
+          "Who are the people celebrating a wedding that he intends to target?",
+          "How is the Duke 'dead' if he is 'coming home'?",
+          "What is the specific history or grievance between Alexander and the wedding party?"
+        ],
+        "future_questions": [
+          "Is Alexander the dead Duke, or is he someone bringing the Duke's body back?",
+          "What is the nature of the threat he poses to the wedding?",
+          "Who are the people he is seeking vengeance against?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 8,
+        "summary": "A man named Alexander vows to interrupt an upcoming wedding by returning with a dead Duke, implying a violent confrontation.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 4.15
+      }
+    },
+    {
+      "rank": 16,
+      "episode": 38,
+      "segments": [
+        {
+          "start": "00:08.50",
+          "end": "00:50.50"
+        }
+      ],
+      "duration_s": 42.0,
+      "hook": "[ACTION] The Guard pauses, glancing over his shoulder into the gloomy corridor to ensure he is unobserved.",
+      "cliffhanger": "[ACTION] A heavy tear drips down from her jaw, falling into the dark dampness below.",
+      "why_it_works": "hook: striking action; high curiosity gap (clear alone, wants a next step)",
+      "score": 5.69,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 6.2,
+        "cliff": 6.0,
+        "standalone": 7.1,
+        "intensity": 2.2
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 7.5,
+        "standalone": 5.0,
+        "intensity": 2.2
+      },
+      "learned_scores": {
+        "hook": 8.8,
+        "cliff": 4.43
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "back-references"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 9.25,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 17,
+      "episode": 29,
+      "segments": [
+        {
+          "start": "00:56.70",
+          "end": "01:33.70"
+        }
+      ],
+      "duration_s": 37.0,
+      "hook": "JULIANA (Enraged, Defiant): \"You are doing this because I saved the Duchess!\"",
+      "cliffhanger": "[ACTION] Juliana trembles uncontrollably, her fingers digging into the collar of her rustic dress as terror washes over her.",
+      "why_it_works": "stranger's view: A woman named Juliana is cruelly imprisoned by an arrogant noblewoman named Catherine, who mocks Juliana's hope that her veteran husband will rescue her.",
+      "score": 5.67,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.6,
+        "cliff": 5.9,
+        "standalone": 6.0,
+        "intensity": 5.2
+      },
+      "rule_scores": {
+        "hook": 8.1,
+        "cliff": 2.0,
+        "standalone": 6.0,
+        "intensity": 5.2
+      },
+      "learned_scores": {
+        "hook": 3.06,
+        "cliff": 9.71
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The significance of Juliana saving the Duchess is unclear, as is why this act led to her imprisonment.",
+          "The identity and power of 'Ashbrook' are not defined, making it difficult to understand the scale of the threat.",
+          "The history behind Juliana being 'cast out once' is referenced without context."
+        ],
+        "future_questions": [
+          "Will the 'scarred soldier' husband actually come to rescue her?",
+          "What is the specific nature of the threat posed by Ashbrook?",
+          "How will Juliana survive or escape the cell?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "A woman named Juliana is cruelly imprisoned by an arrogant noblewoman named Catherine, who mocks Juliana's hope that her veteran husband will rescue her.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.92
+      }
+    },
+    {
+      "rank": 18,
+      "episode": 47,
+      "segments": [
+        {
+          "start": "00:43.00",
+          "end": "01:03.40"
+        }
+      ],
+      "duration_s": 20.4,
+      "hook": "ALEXANDER (Deep, Unwavering): \"You are my wife.\"",
+      "cliffhanger": "CATHERINE (Desperate, Weeping): \"I have nowhere to go, Your Grace.\"",
+      "why_it_works": "hook: charged words; stranger's view: A man insists on his marital bond with a woman while, elsewhere, a desperate woman is confronted by a hostile noblewoman in a courtyard.",
+      "score": 5.67,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 7.3,
+        "cliff": 3.8,
+        "standalone": 5.0,
+        "intensity": 9.0
+      },
+      "rule_scores": {
+        "hook": 8.0,
+        "cliff": 3.7,
+        "standalone": 5.0,
+        "intensity": 9.0
+      },
+      "learned_scores": {
+        "hook": 6.7,
+        "cliff": 3.97
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the relationship between Alexander and Juliana is unclear, as he claims they are already married despite planning a future ceremony.",
+          "The reason for the tension between Lady Ashbourne and Catherine is unknown, specifically why Catherine is being treated as an unwelcome intruder.",
+          "The connection between the two separate scenes (Alexander/Juliana and Lady Ashbourne/Catherine) is not established."
+        ],
+        "future_questions": [
+          "Why is Catherine being rejected by Lady Ashbourne?",
+          "Will Alexander and Juliana actually make it to the King within ten days?",
+          "What is the history that makes Lady Ashbourne so contemptuous toward Catherine?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 7,
+        "summary": "A man insists on his marital bond with a woman while, elsewhere, a desperate woman is confronted by a hostile noblewoman in a courtyard.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 4.92
+      }
+    },
+    {
+      "rank": 19,
+      "episode": 44,
+      "segments": [
+        {
+          "start": "00:41.20",
+          "end": "01:09.60"
+        }
+      ],
+      "duration_s": 28.4,
+      "hook": "[ACTION] Alexander abruptly pulls his face back, refusing her touch and leaving her hand suspended in mid-air.",
+      "cliffhanger": "[ACTION] Alexander walks away from Catherine toward Juliana, who waits solemnly by the cathedral entrance.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger; stranger's view: A man coldly rejects a woman's claims of past love and status before walking away to join another woman waiting at a cathedral.",
+      "score": 5.64,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 6.8,
+        "standalone": 5.2,
+        "intensity": 5.1
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.0,
+        "standalone": 5.0,
+        "intensity": 5.1
+      },
+      "learned_scores": {
+        "hook": 8.31,
+        "cliff": 9.55
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the 'Duchess' title and why Catherine believes she was entitled to it.",
+          "The history of the relationship between Alexander and Catherine prior to 'all this'.",
+          "The identity of Juliana and her significance to Alexander.",
+          "The specific event or 'memory' Alexander is supposedly lacking."
+        ],
+        "future_questions": [
+          "Who is Juliana and what is her relationship to Alexander?",
+          "What is the 'all this' that changed their relationship?",
+          "Will Catherine confront Juliana or Alexander again?",
+          "What is the true nature of Alexander's coldness toward Catherine?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 8,
+        "summary": "A man coldly rejects a woman's claims of past love and status before walking away to join another woman waiting at a cathedral.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.4
+      }
+    },
+    {
+      "rank": 20,
+      "episode": 4,
+      "segments": [
+        {
+          "start": "01:53.00",
+          "end": "02:31.40"
+        }
+      ],
+      "duration_s": 38.4,
+      "hook": "THE PRIEST (Off-Screen, Booming): \"...husband and wife!\"",
+      "cliffhanger": "[ACTION] Juliana and the Mysterious Bearded Man walk hand-in-hand through the towering doors into the sunlight together, turning their backs on the ruined wedding as the screen fades out.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, visual reveal/shock, sound sting; stranger's view: After a woman named Juliana defies her family's wishes by marrying a penniless man, she is disowned by Lady Ashcroft and walks out of the wedding ceremony to start a new life with her partner.",
+      "score": 5.57,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.2,
+        "cliff": 8.2,
+        "standalone": 6.0,
+        "intensity": 3.1
+      },
+      "rule_scores": {
+        "hook": 8.1,
+        "cliff": 6.5,
+        "standalone": 6.0,
+        "intensity": 3.1
+      },
+      "learned_scores": {
+        "hook": 0.23,
+        "cliff": 9.83
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of Clarissa is never established, making her reaction shot confusing.",
+          "The nature of the relationship between Gerald and Juliana is unclear; he acts like a jilted lover or a controlling relative, but his exact role is undefined.",
+          "The specific history or power dynamic between Lady Ashcroft and Juliana is implied but not explicitly stated."
+        ],
+        "future_questions": [
+          "Who is the mysterious bearded man and what is his actual status?",
+          "How will Juliana survive now that she has been disowned and cut off from her family's wealth?",
+          "Will Gerald or Lady Ashcroft attempt to pursue or sabotage the couple now that they have left?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "After a woman named Juliana defies her family's wishes by marrying a penniless man, she is disowned by Lady Ashcroft and walks out of the wedding ceremony to start a new life with her partner.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.92
+      }
+    },
+    {
+      "rank": 21,
+      "episode": 34,
+      "segments": [
+        {
+          "start": "00:01.20",
+          "end": "00:43.00"
+        }
+      ],
+      "duration_s": 41.8,
+      "hook": "JUDGE (Booming, Authoritative): \"Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, and poisoning.\"",
+      "cliffhanger": "[ACTION] Prudence the young maid stands trembling in the center of the courtroom floor, her head bowed in deep shame, clutching the sides of her apron.",
+      "why_it_works": "cliffhanger: ends on question; high curiosity gap (clear alone, wants a next step); stranger's view: A noblewoman named Lady Juliana Ashcroft stands trial for witchcraft and poisoning, defiantly admitting to using forbidden remedies to heal the sick before the judge turns his interrogation toward her trembling maid.",
+      "score": 5.53,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 6.0,
+        "standalone": 6.5,
+        "intensity": 3.9
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 2.5,
+        "standalone": 6.0,
+        "intensity": 3.9
+      },
+      "learned_scores": {
+        "hook": 7.11,
+        "cliff": 9.5
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity and significance of the 'book' are never explained, making it unclear why it is considered evidence of witchcraft.",
+          "The specific relationship between Lady Juliana and the maid Prudence is not established, leaving the maid's role in the trial ambiguous."
+        ],
+        "future_questions": [
+          "Will Prudence betray Lady Juliana to save herself?",
+          "What will the Judge's verdict be for Lady Juliana?",
+          "What is actually written in the book that makes it so dangerous?"
+        ],
+        "standalone_clarity": 8,
+        "cliffhanger_pull": 7,
+        "summary": "A noblewoman named Lady Juliana Ashcroft stands trial for witchcraft and poisoning, defiantly admitting to using forbidden remedies to heal the sick before the judge turns his interrogation toward her trembling maid.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.95
+      }
+    },
+    {
+      "rank": 22,
+      "episode": 28,
+      "segments": [
+        {
+          "start": "01:35.20",
+          "end": "02:18.50"
+        }
+      ],
+      "duration_s": 43.3,
+      "hook": "[ACTION] Juliana gasps in horror, realizing her secret identity has been laid bare.",
+      "cliffhanger": "CATHERINE (Fateful, Vengeful): \"...before he sends you to the gallows.\"",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, trailing line; stranger's view: A cruel woman named Catherine exposes a servant as a disgraced noblewoman and orders her imprisonment and trial for possession of a suspicious book.",
+      "score": 5.52,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 6.3,
+        "standalone": 6.0,
+        "intensity": 4.1
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 5.6,
+        "standalone": 6.0,
+        "intensity": 4.1
+      },
+      "learned_scores": {
+        "hook": 6.93,
+        "cliff": 6.98
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the 'book of weeds' and why it is considered evidence of a crime punishable by hanging.",
+          "The specific history behind Juliana being 'disgraced' and 'thrown out' of her family home.",
+          "The identity of the Blond Nobleman and his authority over Juliana's fate."
+        ],
+        "future_questions": [
+          "Will Juliana be able to prove her innocence regarding the book before the magistrate?",
+          "What will happen to Juliana once she is taken to the wet cells?",
+          "Will Juliana's husband intervene to save her?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 9,
+        "summary": "A cruel woman named Catherine exposes a servant as a disgraced noblewoman and orders her imprisonment and trial for possession of a suspicious book.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.92
+      }
+    },
+    {
+      "rank": 23,
+      "episode": 25,
+      "segments": [
+        {
+          "start": "02:08.20",
+          "end": "02:48.00"
+        }
+      ],
+      "duration_s": 39.8,
+      "hook": "ALEXANDER (Fierce, Reproachful): \"Because you were standing inside a house where someone is poisoning a woman... and you never told me.\"",
+      "cliffhanger": "[ACTION] Alexander turns, falling into step beside Juliana. Together, side by side, they begin their quiet walk down the darkening forest path into the twilight.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger; stranger's view: A man confronts a woman about her dangerous involvement in a poisoning plot, eventually relenting and agreeing to help her investigate.",
+      "score": 5.52,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.0,
+        "cliff": 6.8,
+        "standalone": 5.7,
+        "intensity": 3.9
+      },
+      "rule_scores": {
+        "hook": 4.3,
+        "cliff": 4.0,
+        "standalone": 6.0,
+        "intensity": 3.9
+      },
+      "learned_scores": {
+        "hook": 5.75,
+        "cliff": 9.57
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of the woman being poisoned is never established.",
+          "The relationship between Alexander and Juliana is unclear; it is ambiguous whether they are partners, siblings, or allies.",
+          "The nature of the 'they' who struck Juliana is unknown, leaving the threat level and the antagonists undefined."
+        ],
+        "future_questions": [
+          "Who is the woman being poisoned?",
+          "What specific information does Juliana have about the poisoning?",
+          "What will they do once they reach the end of the forest path?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 7,
+        "summary": "A man confronts a woman about her dangerous involvement in a poisoning plot, eventually relenting and agreeing to help her investigate.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.42
+      }
+    },
+    {
+      "rank": 24,
+      "episode": 39,
+      "segments": [
+        {
+          "start": "01:08.50",
+          "end": "01:38.00"
+        }
+      ],
+      "duration_s": 29.5,
+      "hook": "[ACTION] Alexander emerges in full ducal splendor—dressed in an immaculate navy tailcoat lined with gold embroidery, double-breasted brass buttons, and a crisp white cravat.",
+      "cliffhanger": "[ACTION] Alexander's eyes burn with furious determination as the screen cuts sharply to black.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, threat/reveal line; high curiosity gap (clear alone, wants a next step)",
+      "score": 5.49,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 6.5,
+        "standalone": 6.6,
+        "intensity": 2.5
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 5.0,
+        "standalone": 6.5,
+        "intensity": 2.5
+      },
+      "learned_scores": {
+        "hook": 8.43,
+        "cliff": 8.1
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Grace"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 6.75,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 25,
+      "episode": 14,
+      "segments": [
+        {
+          "start": "00:44.00",
+          "end": "01:27.00"
+        }
+      ],
+      "duration_s": 43.0,
+      "hook": "[ACTION] Alexander gently wraps clean linen bandages around Juliana's torn wrist and palm.",
+      "cliffhanger": "[ACTION] Alexander's muscular arm drops into frame beside the bloody bucket; his scarred knuckles slowly and tightly clench into an iron fist of brewing vengeance.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, sound sting; stranger's view: After Juliana sustains severe hand injuries while protecting him, a remorseful Alexander tends to her wounds and makes a dark, ominous vow to seek vengeance against those responsible.",
+      "score": 5.46,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.9,
+        "cliff": 7.7,
+        "standalone": 6.6,
+        "intensity": 0.8
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 5.5,
+        "standalone": 7.5,
+        "intensity": 0.8
+      },
+      "learned_scores": {
+        "hook": 7.78,
+        "cliff": 9.92
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "It is unclear what specific event or 'place' Juliana took that resulted in her wrist and palm being torn.",
+          "The nature of the relationship between Alexander and Juliana is ambiguous; it is unclear if they are partners, siblings, or master and servant.",
+          "The context of the 'bloody bucket' and the specific threat Alexander is vowing to retaliate against is unknown."
+        ],
+        "future_questions": [
+          "Who or what group is Alexander planning to take vengeance against?",
+          "What exactly did Juliana do to 'take his place' that caused her such severe injuries?",
+          "Will Alexander's vow of protection lead to a violent confrontation?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "After Juliana sustains severe hand injuries while protecting him, a remorseful Alexander tends to her wounds and makes a dark, ominous vow to seek vengeance against those responsible.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 26,
+      "episode": 15,
+      "segments": [
+        {
+          "start": "00:05.10",
+          "end": "00:53.50"
+        }
+      ],
+      "duration_s": 48.4,
+      "hook": "[ACTION] The bald thug roughly rips a massive handful of flowering herbs up by their roots, scattering soil across the path.",
+      "cliffhanger": "[ACTION] Juliana crawls forward on her elbows; fresh crimson blood seeps profusely through her white gauze bandages as she reaches for the ruined blossoms.",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Juliana desperately tries to protect her medicinal garden from a group of aggressive thugs who mock her status and violently shove her to the ground, causing her bandaged hands to bleed.",
+      "score": 5.42,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.5,
+        "cliff": 5.1,
+        "standalone": 6.7,
+        "intensity": 4.1
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 1.6,
+        "standalone": 6.0,
+        "intensity": 4.1
+      },
+      "learned_scores": {
+        "hook": 9.05,
+        "cliff": 8.56
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Why does Juliana have bandaged hands before the confrontation begins?",
+          "Why are these specific thugs targeting her garden and calling her a 'noble lady'?"
+        ],
+        "future_questions": [
+          "Will Juliana fight back or find a way to stop the thugs from destroying the rest of her garden?",
+          "What is the significance of the medicinal plants that makes them worth getting injured over?",
+          "Will someone come to Juliana's aid after she is shoved to the ground?"
+        ],
+        "standalone_clarity": 8,
+        "cliffhanger_pull": 9,
+        "summary": "A woman named Juliana desperately tries to protect her medicinal garden from a group of aggressive thugs who mock her status and violently shove her to the ground, causing her bandaged hands to bleed.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.45
+      }
+    },
+    {
+      "rank": 27,
+      "episode": 41,
+      "segments": [
+        {
+          "start": "00:54.80",
+          "end": "01:36.09"
+        }
+      ],
+      "duration_s": 41.3,
+      "hook": "[ACTION] Juliana looks around the cathedral at the sea of pompous faces, then raises her eyes straight back to Catherine with utter disdain.",
+      "cliffhanger": "[ACTION] Silhouetted armed figures emerge through the smoke and rubble of the breached doorway. Juliana slowly turns her head, glancing back toward the light.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger; high curiosity gap (clear alone, wants a next step); stranger's view: A defiant, chained woman named Juliana is being confronted by a powerful woman named Catherine in a cathedral when a massive explosion suddenly destroys the entrance and armed figures storm the building.",
+      "score": 5.42,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 6.9,
+        "standalone": 6.0,
+        "intensity": 1.9
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.0,
+        "standalone": 5.0,
+        "intensity": 1.9
+      },
+      "learned_scores": {
+        "hook": 8.63,
+        "cliff": 9.81
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the relationship between Juliana and Catherine is unclear, specifically why Juliana is chained and why Catherine holds authority over her.",
+          "The significance of the 'Ashburgh title' is not explained, leaving the motivation behind the characters' ambition ambiguous.",
+          "The identity of the blond nobleman and his connection to the power struggle is not established."
+        ],
+        "future_questions": [
+          "Who are the armed figures emerging from the smoke?",
+          "Did Juliana orchestrate the explosion to escape, or is she a target of the attackers?",
+          "Will Catherine and the others survive the blast?",
+          "What is the specific history between Juliana and Catherine that led to this confrontation?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 9,
+        "summary": "A defiant, chained woman named Juliana is being confronted by a powerful woman named Catherine in a cathedral when a massive explosion suddenly destroys the entrance and armed figures storm the building.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.92
+      }
+    },
+    {
+      "rank": 28,
+      "episode": 3,
+      "segments": [
+        {
+          "start": "01:00.50",
+          "end": "01:28.00"
+        }
+      ],
+      "duration_s": 27.5,
+      "hook": "[ACTION] The guards forcefully grab Juliana by both shoulders and drag her backwards.",
+      "cliffhanger": "THE FORMER GROOM (Frantic, Shouting): \"What are you waiting for?! He's only one man!\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A mysterious, powerful stranger intervenes in a violent struggle to rescue a woman being dragged out of a chapel by armed guards.",
+      "score": 5.37,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.0,
+        "cliff": 5.6,
+        "standalone": 6.7,
+        "intensity": 4.0
+      },
+      "rule_scores": {
+        "hook": 9.6,
+        "cliff": 3.1,
+        "standalone": 6.0,
+        "intensity": 4.0
+      },
+      "learned_scores": {
+        "hook": 0.3,
+        "cliff": 8.19
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Why is Lady Juliana being forcibly removed from the chapel?",
+          "What is the relationship between the Noble Matriarch and the Former Groom?",
+          "Why is the Former Groom present and why does he seem to be directing the guards?"
+        ],
+        "future_questions": [
+          "Will the other guards attack the stranger at once?",
+          "Who is the Bearded Stranger and why is he intervening?",
+          "Will Juliana be able to escape while the fight continues?",
+          "How will the Noble Matriarch react to the guard being defeated?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 9,
+        "summary": "A mysterious, powerful stranger intervenes in a violent struggle to rescue a woman being dragged out of a chapel by armed guards.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.42
+      }
+    },
+    {
+      "rank": 29,
+      "episode": 7,
+      "segments": [
+        {
+          "start": "00:30.00",
+          "end": "01:11.20"
+        }
+      ],
+      "duration_s": 41.2,
+      "hook": "JULIANA (Sharp, Unintimidated): \"You came all this way just to insult my home?\"",
+      "cliffhanger": "[ACTION] The Scarred Bearded Man marches purposefully toward the cottage, carrying a heavy bundle of chopped firewood bound tightly with hemp cord.",
+      "why_it_works": "stranger's view: A woman named Juliana defiantly defends her humble life and her husband against a wealthy, condescending man and woman who mock her for abandoning her aristocratic status.",
+      "score": 5.37,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.7,
+        "cliff": 5.9,
+        "standalone": 6.3,
+        "intensity": 4.4
+      },
+      "rule_scores": {
+        "hook": 3.8,
+        "cliff": 7.2,
+        "standalone": 7.0,
+        "intensity": 4.4
+      },
+      "learned_scores": {
+        "hook": 5.68,
+        "cliff": 4.67
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The history of Juliana's fall from being a 'lady' to living in a cottage is unexplained.",
+          "The nature of the past relationship between Juliana, Gerald, and the 'scarred beggar' is unclear.",
+          "The specific reason for Gerald's intense resentment and his claim that he 'walked away' is missing."
+        ],
+        "future_questions": [
+          "Will the husband confront Gerald when he arrives with the firewood?",
+          "Is Gerald actually capable of making the husband disappear, or is he bluffing?",
+          "How will Juliana protect her home from Gerald's threats?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A woman named Juliana defiantly defends her humble life and her husband against a wealthy, condescending man and woman who mock her for abandoning her aristocratic status.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 30,
+      "episode": 31,
+      "segments": [
+        {
+          "start": "00:02.80",
+          "end": "00:50.80"
+        }
+      ],
+      "duration_s": 48.0,
+      "hook": "[ACTION] Juliana recoils against the damp stonework, her eyes wide with terror as light floods into the dark cell.",
+      "cliffhanger": "[ACTION] Juliana stares up, her breathing steadying as she refuses to break under Catherine's barbs.",
+      "why_it_works": "cliffhanger: ends on question, visual reveal/shock; high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Catherine taunts a prisoner named Juliana in a dungeon, mocking her fall from grace and referencing a past public humiliation involving a man named Gerald.",
+      "score": 5.36,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 6.1,
+        "standalone": 6.5,
+        "intensity": 2.7
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.7,
+        "standalone": 6.0,
+        "intensity": 2.7
+      },
+      "learned_scores": {
+        "hook": 8.38,
+        "cliff": 7.57
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of 'Gerald' and why his abandonment of Juliana at the altar is considered a defining moment of her disgrace.",
+          "The specific nature of the conflict between Juliana and Catherine, and why Catherine has the authority to hold Juliana in a dungeon."
+        ],
+        "future_questions": [
+          "What is Catherine's ultimate plan for Juliana now that she is imprisoned?",
+          "Will Juliana find a way to escape or retaliate against Catherine?",
+          "What is the history behind the 'cruelty' that Juliana refused to participate in?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "A woman named Catherine taunts a prisoner named Juliana in a dungeon, mocking her fall from grace and referencing a past public humiliation involving a man named Gerald.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.95
+      }
+    },
+    {
+      "rank": 31,
+      "episode": 11,
+      "segments": [
+        {
+          "start": "01:12.10",
+          "end": "01:39.00"
+        }
+      ],
+      "duration_s": 26.9,
+      "hook": "JULIANA (Furious, Accusatory): \"You planted this accusation because you cannot bear that I am happy without you!\"",
+      "cliffhanger": "[ACTION] Juliana draws a sharp, terrified breath as her face pales completely.",
+      "why_it_works": "hook: exclamation, charged words; high curiosity gap (clear alone, wants a next step); stranger's view: During a tense confrontation, a man named Gerald provokes a hidden observer while a Constable searches a coat and discovers a incriminating gold chain, leaving a woman named Juliana in a state of visible terror.",
+      "score": 5.32,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 6.4,
+        "cliff": 3.1,
+        "standalone": 6.2,
+        "intensity": 6.0
+      },
+      "rule_scores": {
+        "hook": 6.6,
+        "cliff": 1.6,
+        "standalone": 6.0,
+        "intensity": 6.0
+      },
+      "learned_scores": {
+        "hook": 6.26,
+        "cliff": 4.59
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the 'accusation' Juliana refers to is never explained.",
+          "The relationship between Juliana, Gerald, and Alexander is unclear; it is unknown why Alexander is providing a voice-over or why he is not physically present.",
+          "The significance of the gold chain being found in the coat is not established, leaving the viewer unsure why it causes such a terrified reaction."
+        ],
+        "future_questions": [
+          "What is the significance of the gold chain found in the coat?",
+          "Will the Constable use the chain as evidence to frame someone?",
+          "What is the 'accusation' that Gerald has planted?",
+          "Where is Alexander, and why is he watching this unfold from afar?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 8,
+        "summary": "During a tense confrontation, a man named Gerald provokes a hidden observer while a Constable searches a coat and discovers a incriminating gold chain, leaving a woman named Juliana in a state of visible terror.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.42
+      }
+    },
+    {
+      "rank": 32,
+      "episode": 34,
+      "segments": [
+        {
+          "start": "02:44.00",
+          "end": "03:10.00"
+        }
+      ],
+      "duration_s": 26.0,
+      "hook": "[ACTION] Prudence buries her face in her stained white apron, shuddering with grief.",
+      "cliffhanger": "[ACTION] The Judge extends his raised hand high in judgment over Lady Juliana as the scene holds on her standing still and unbroken before fading to black.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, visual reveal/shock, trailing line; stranger's view: A defiant woman named Lady Juliana stands trial before an angry judge for practicing a form of healing that the court deems dangerous.",
+      "score": 5.31,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.9,
+        "cliff": 7.7,
+        "standalone": 5.8,
+        "intensity": 0.8
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 6.0,
+        "standalone": 6.0,
+        "intensity": 0.8
+      },
+      "learned_scores": {
+        "hook": 7.78,
+        "cliff": 9.35
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the 'healing' Lady Juliana is being judged for is undefined, making it unclear if she is a doctor, a witch, or a political dissident.",
+          "The relationship between Prudence and Lady Juliana is unclear; it is unknown if Prudence is a servant, a victim, or a co-conspirator.",
+          "The specific authority or law the Judge is enforcing remains ambiguous."
+        ],
+        "future_questions": [
+          "What sentence will the Judge pass on Lady Juliana?",
+          "What is the 'healing' that has caused such a violent reaction from the court?",
+          "Will Lady Juliana remain defiant, or will the judgment break her resolve?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A defiant woman named Lady Juliana stands trial before an angry judge for practicing a form of healing that the court deems dangerous.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 33,
+      "episode": 18,
+      "segments": [
+        {
+          "start": "02:35.00",
+          "end": "03:06.50"
+        }
+      ],
+      "duration_s": 31.5,
+      "hook": "[ACTION] Alexander draws her firmly into his arms, wrapping both burly arms around her as she buries her face into his shoulder, weeping uncontrollably.",
+      "cliffhanger": "JULIANA (Trembling, Apprehensive): \"What are you going to do?\"",
+      "why_it_works": "stranger's view: After losing their home to unknown enemies, a distraught woman seeks comfort in her partner, who vows to take a dangerous stand against those who displaced them.",
+      "score": 5.29,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 5.6,
+        "standalone": 5.8,
+        "intensity": 3.9
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 3.1,
+        "standalone": 6.0,
+        "intensity": 3.9
+      },
+      "learned_scores": {
+        "hook": 8.68,
+        "cliff": 8.02
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who are 'they' that took their home?",
+          "What specific event or threat caused them to be displaced?",
+          "What is the nature of Alexander's power or resources that makes his promise to retaliate credible?"
+        ],
+        "future_questions": [
+          "What is Alexander's plan to retaliate against the people who took their home?",
+          "Who exactly are the antagonists responsible for their displacement?",
+          "Will Juliana support Alexander's violent path, or is she afraid of what he will become?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "After losing their home to unknown enemies, a distraught woman seeks comfort in her partner, who vows to take a dangerous stand against those who displaced them.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 34,
+      "episode": 3,
+      "segments": [
+        {
+          "start": "00:11.20",
+          "end": "01:00.00"
+        }
+      ],
+      "duration_s": 48.8,
+      "hook": "LADY JULIANA (Defiant): \"Don't pretend you've earned anything.\"",
+      "cliffhanger": "NOBLE MATRIARCH (Shouting, Imperious): \"Guards! Remove her!\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Lady Juliana is publicly humiliated and disowned by a cold matriarch at a church, leading to her being forcibly removed by guards after her wedding is stolen by another woman.",
+      "score": 5.29,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.4,
+        "cliff": 4.3,
+        "standalone": 7.2,
+        "intensity": 4.5
+      },
+      "rule_scores": {
+        "hook": 5.8,
+        "cliff": 4.2,
+        "standalone": 7.0,
+        "intensity": 4.5
+      },
+      "learned_scores": {
+        "hook": 4.99,
+        "cliff": 4.35
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the relationship between Lady Juliana and the Lady in the Gold Gown is unclear, specifically how the latter 'stole' a wedding that was supposed to be Juliana's.",
+          "The specific event or action that Juliana committed earlier in the day that caused the family to feel 'humiliated' is never explained.",
+          "The identity of the 'father' and why his choice is so pivotal to Juliana's status is referenced without context."
+        ],
+        "future_questions": [
+          "Where will Juliana go now that she has been disowned and forcibly removed?",
+          "Will Juliana fight back against the guards or the Matriarch?",
+          "What exactly did the Lady in the Gold Gown do to steal the wedding?",
+          "Will Juliana's father intervene, or is he truly complicit in her exile?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 9,
+        "summary": "A woman named Lady Juliana is publicly humiliated and disowned by a cold matriarch at a church, leading to her being forcibly removed by guards after her wedding is stolen by another woman.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.42
+      }
+    },
+    {
+      "rank": 35,
+      "episode": 27,
+      "segments": [
+        {
+          "start": "02:03.10",
+          "end": "02:30.50"
+        }
+      ],
+      "duration_s": 27.4,
+      "hook": "LADY CATHERINE (Shrieking, Feigning Horror): \"You hear that?!\"",
+      "cliffhanger": "[ACTION] The guard twists Juliana around and drags her forcibly toward the doorway as she struggles against his grip.",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step)",
+      "score": 5.25,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.2,
+        "cliff": 4.4,
+        "standalone": 6.4,
+        "intensity": 7.9
+      },
+      "rule_scores": {
+        "hook": 8.3,
+        "cliff": 4.0,
+        "standalone": 6.0,
+        "intensity": 7.9
+      },
+      "learned_scores": {
+        "hook": 0.13,
+        "cliff": 4.82
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Duchess"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 6.75,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 36,
+      "episode": 28,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:47.00"
+        }
+      ],
+      "duration_s": 47.0,
+      "hook": "[ACTION] Juliana struggles against the guard's grip; the leather-bound herbarium slips from her apron pocket and falls to the stone floor.",
+      "cliffhanger": "[ACTION] The Duchess collapses back onto the pillows, coughing violently and clutching her chest.",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Juliana is accused of poisoning a Duchess, but the Duchess intervenes to declare her innocence and accuses Catherine of being the true culprit before collapsing.",
+      "score": 5.23,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 2.9,
+        "standalone": 7.3,
+        "intensity": 6.9
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.2,
+        "standalone": 7.5,
+        "intensity": 6.9
+      },
+      "learned_scores": {
+        "hook": 8.58,
+        "cliff": 1.66
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of the 'her' the Dowager Duchess was poisoned by is unclear, as is the specific relationship between Catherine, Rupert, and the Duchess.",
+          "It is not established why Juliana is being held by guards or what her specific role is in relation to the Duchess.",
+          "The nature of the 'secret medicine' and the history of the herbarium are not explained."
+        ],
+        "future_questions": [
+          "Did Catherine actually poison the Duchess?",
+          "Will the guards release Juliana now that the Duchess has spoken?",
+          "Is the Duchess going to survive her collapse?",
+          "Who is the 'they' the Duchess was about to name before she collapsed?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 9,
+        "summary": "A woman named Juliana is accused of poisoning a Duchess, but the Duchess intervenes to declare her innocence and accuses Catherine of being the true culprit before collapsing.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.17
+      }
+    },
+    {
+      "rank": 37,
+      "episode": 21,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:42.80"
+        }
+      ],
+      "duration_s": 42.8,
+      "hook": "[ACTION] Lady Juliana gently straightens the grey wool blanket over the hay bed, exhaling a soft, exhausted sigh.",
+      "cliffhanger": "[ACTION] Lady Juliana clutches the thick book to her chest as she and Prudence sprint swiftly through the village.",
+      "why_it_works": "stranger's view: After a desperate girl begs for help for her dying brother, a disgraced noblewoman living in a barn grabs her medical ledger to rush to the child's aid.",
+      "score": 5.23,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.5,
+        "cliff": 5.1,
+        "standalone": 6.7,
+        "intensity": 2.8
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 1.0,
+        "standalone": 7.5,
+        "intensity": 2.8
+      },
+      "learned_scores": {
+        "hook": 7.59,
+        "cliff": 9.15
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Why Lady Juliana is living in a barn and has a 'cottage' that is now 'ashes'.",
+          "Why Lady Juliana has bandaged hands.",
+          "The nature of the relationship between a 'Lady' and a village girl that makes the Lady the only hope for a dying boy."
+        ],
+        "future_questions": [
+          "Will they reach the boy in time to save him?",
+          "What is the significance of the 'coltsfoot' and the herbal ledger?",
+          "Why is Lady Juliana currently destitute and living in a barn?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "After a desperate girl begs for help for her dying brother, a disgraced noblewoman living in a barn grabs her medical ledger to rush to the child's aid.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.92
+      }
+    },
+    {
+      "rank": 38,
+      "episode": 24,
+      "segments": [
+        {
+          "start": "00:04.00",
+          "end": "00:30.80"
+        }
+      ],
+      "duration_s": 26.8,
+      "hook": "[ACTION] The noblewoman halts in the center of the chamber, tapping her riding crop against her gloved palm as her cold gaze sweeps across the two maids.",
+      "cliffhanger": "NOBLEWOMAN (Vicious, Venomous): \"Then let her suffer.\"",
+      "why_it_works": "hook: question, charged words; high curiosity gap (clear alone, wants a next step); stranger's view: A cold noblewoman confronts a new maid who is secretly attempting to provide unauthorized medical aid to a suffering person in a restricted chamber.",
+      "score": 5.22,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 7.2,
+        "cliff": 2.2,
+        "standalone": 6.3,
+        "intensity": 5.1
+      },
+      "rule_scores": {
+        "hook": 6.8,
+        "cliff": 2.7,
+        "standalone": 6.0,
+        "intensity": 5.1
+      },
+      "learned_scores": {
+        "hook": 7.58,
+        "cliff": 1.76
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of 'Her Grace' is unclear, as is her relationship to the noblewoman and why she is suffering.",
+          "The significance of the 'remedy vial' is unknown, leaving it unclear if Juliana is a healer, a thief, or a conspirator."
+        ],
+        "future_questions": [
+          "Will the noblewoman discover the vial in Juliana's pocket?",
+          "Who is the person suffering in the room, and will Juliana be allowed to help them?",
+          "What will the noblewoman do to punish Juliana for her defiance?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A cold noblewoman confronts a new maid who is secretly attempting to provide unauthorized medical aid to a suffering person in a restricted chamber.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.7
+      }
+    },
+    {
+      "rank": 39,
+      "episode": 9,
+      "segments": [
+        {
+          "start": "00:47.00",
+          "end": "01:14.80"
+        }
+      ],
+      "duration_s": 27.8,
+      "hook": "[ACTION] The child swallows weakly and lets out a soft cough.",
+      "cliffhanger": "[ACTION] The mother exits into the rainy twilight as Alexander pushes the door shut.",
+      "why_it_works": "cliffhanger: threat/reveal line, visual reveal/shock; stranger's view: A woman named Juliana successfully treats a sick child with herbs, prompting the relieved mother to vow that she will tell the entire village about the deed before leaving into the rain.",
+      "score": 5.22,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.0,
+        "cliff": 6.0,
+        "standalone": 6.3,
+        "intensity": 2.5
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 3.0,
+        "standalone": 7.0,
+        "intensity": 2.5
+      },
+      "learned_scores": {
+        "hook": 6.56,
+        "cliff": 9.1
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is Alexander, and why is he closing the door?",
+          "What is the relationship between Juliana and the village?",
+          "Why is the mother's gratitude framed as something that might be significant to the village?"
+        ],
+        "future_questions": [
+          "Why does the mother's vow to tell the village feel like a potential threat or a burden rather than just a simple thank you?",
+          "What is the nature of Juliana's work, and why is she hiding or living in a place where she needs to be 'saved' or kept secret?",
+          "Who is Alexander, and what is his role in protecting Juliana?"
+        ],
+        "standalone_clarity": 8,
+        "cliffhanger_pull": 6,
+        "summary": "A woman named Juliana successfully treats a sick child with herbs, prompting the relieved mother to vow that she will tell the entire village about the deed before leaving into the rain.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 40,
+      "episode": 27,
+      "segments": [
+        {
+          "start": "01:15.20",
+          "end": "01:47.50"
+        }
+      ],
+      "duration_s": 32.3,
+      "hook": "LADY CATHERINE (Mocking, Condescending): \"Medicine? You are a new maid.\"",
+      "cliffhanger": "BLOND NOBLEMAN (O.S., Contemptuous): \"...holding a substance no one authorized her to give.\"",
+      "why_it_works": "hook: question, charged words",
+      "score": 5.21,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 6.0,
+        "cliff": 4.4,
+        "standalone": 4.9,
+        "intensity": 5.4
+      },
+      "rule_scores": {
+        "hook": 7.8,
+        "cliff": 2.6,
+        "standalone": 5.5,
+        "intensity": 5.4
+      },
+      "learned_scores": {
+        "hook": 4.23,
+        "cliff": 6.2
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Duchess"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 4.25,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 41,
+      "episode": 44,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:28.00"
+        }
+      ],
+      "duration_s": 28.0,
+      "hook": "[ACTION] The Police Constable strides firmly down the steps and halts right in front of Lord Sterling, holding his ground.",
+      "cliffhanger": "CATHERINE (Shaken, Tearful): \"Alexander... I thought you had died.\"",
+      "why_it_works": "stranger's view: A police constable arrests Lord Sterling while a royal guard forcibly detains another man, leaving a woman named Catherine visibly distressed and confused about the man's identity.",
+      "score": 5.18,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 4.3,
+        "standalone": 6.0,
+        "intensity": 5.7
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 0.0,
+        "standalone": 6.5,
+        "intensity": 5.7
+      },
+      "learned_scores": {
+        "hook": 8.45,
+        "cliff": 8.65
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of 'Rupert' is never established, yet a man is suddenly forced to the ground under that name.",
+          "The relationship between the blond nobleman, Rupert, and Catherine is unclear, making the sudden name 'Alexander' confusing.",
+          "The history behind why the Crown is arresting Lord Sterling is completely absent."
+        ],
+        "future_questions": [
+          "Is the man on the ground Rupert or Alexander, and why are there two names?",
+          "Will Catherine intervene to save the man being arrested?",
+          "What is the specific crime Lord Sterling is being accused of by the Crown?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 8,
+        "summary": "A police constable arrests Lord Sterling while a royal guard forcibly detains another man, leaving a woman named Catherine visibly distressed and confused about the man's identity.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.42
+      }
+    },
+    {
+      "rank": 42,
+      "episode": 18,
+      "segments": [
+        {
+          "start": "00:03.50",
+          "end": "00:41.80"
+        }
+      ],
+      "duration_s": 38.3,
+      "hook": "[ACTION] Juliana coughs, her eyes widening in immediate alarm as the smell of burning wood fills her lungs.",
+      "cliffhanger": "JULIANA (Panic-Stricken, Choked): \"We cannot get through!\"",
+      "why_it_works": "hook: striking action; high curiosity gap (clear alone, wants a next step); stranger's view: A woman wakes up to find her room filling with smoke and fire, only to be rescued by a man who rushes in to help her escape the inferno.",
+      "score": 5.14,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 6.0,
+        "cliff": 4.0,
+        "standalone": 6.7,
+        "intensity": 3.3
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 1.6,
+        "standalone": 6.0,
+        "intensity": 3.3
+      },
+      "learned_scores": {
+        "hook": 8.52,
+        "cliff": 6.41
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Why does Juliana have bandaged hands before the fire starts?",
+          "What is the nature of the relationship between Juliana and Alexander?"
+        ],
+        "future_questions": [
+          "Will they be able to escape the burning building?",
+          "How did the fire start?",
+          "Are there other people trapped in the building?"
+        ],
+        "standalone_clarity": 8,
+        "cliffhanger_pull": 9,
+        "summary": "A woman wakes up to find her room filling with smoke and fire, only to be rescued by a man who rushes in to help her escape the inferno.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.45
+      }
+    },
+    {
+      "rank": 43,
+      "episode": 5,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:33.40"
+        }
+      ],
+      "duration_s": 33.4,
+      "hook": "[ACTION] Juliana grips the heirloom ledger tightly against her waist, her posture resolute despite the tension.",
+      "cliffhanger": "JULIANA (Shaking, Tearful): \"You truly mean it? You are my father!\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Juliana is disowned and cut off from her family's fortune by her father immediately after marrying a man he clearly disapproves of.",
+      "score": 5.14,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.1,
+        "cliff": 3.3,
+        "standalone": 7.7,
+        "intensity": 5.6
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 5.5,
+        "standalone": 8.5,
+        "intensity": 5.6
+      },
+      "learned_scores": {
+        "hook": 8.13,
+        "cliff": 1.03
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity and significance of the 'Mysterious Bearded Man' are never established.",
+          "The nature of the 'heirloom ledger' Juliana is holding is unclear, as is its importance to the conflict."
+        ],
+        "future_questions": [
+          "How will Juliana and her new husband survive now that she has been disowned and stripped of her inheritance?",
+          "Will the father eventually regret his decision, or is this a permanent estrangement?",
+          "What is the significance of the ledger Juliana is clutching?"
+        ],
+        "standalone_clarity": 8,
+        "cliffhanger_pull": 7,
+        "summary": "A woman named Juliana is disowned and cut off from her family's fortune by her father immediately after marrying a man he clearly disapproves of.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.95
+      }
+    },
+    {
+      "rank": 44,
+      "episode": 45,
+      "segments": [
+        {
+          "start": "01:41.50",
+          "end": "02:01.75"
+        }
+      ],
+      "duration_s": 20.2,
+      "hook": "HIGH PRIEST (Stern, Official): \"These vows were never entered into the Royal Matrimonial Register.\"",
+      "cliffhanger": "[ACTION] Catherine raises her chin, a vindictive smirk spreading across her lips as she realizes her rival's claim has just been torn to pieces.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, visual reveal/shock; stranger's view: A High Priest publicly declares a woman's marriage invalid, stripping her of her title while her rival watches with satisfaction.",
+      "score": 5.11,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.2,
+        "cliff": 8.0,
+        "standalone": 5.1,
+        "intensity": 6.7
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 6.0,
+        "standalone": 5.0,
+        "intensity": 6.7
+      },
+      "learned_scores": {
+        "hook": 2.84,
+        "cliff": 9.92
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the relationship between Juliana and Alexander is unclear, as is why their marriage was never registered.",
+          "The identity and motivation of Catherine are unknown, specifically why she is present and why she views Juliana as a rival.",
+          "The authority of the High Priest and the legal consequences of his declaration are not established."
+        ],
+        "future_questions": [
+          "How will Alexander respond to the High Priest's declaration?",
+          "What will happen to Juliana now that her status as a Duchess has been publicly revoked?",
+          "Will Catherine take immediate action to capitalize on Juliana's downfall?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 8,
+        "summary": "A High Priest publicly declares a woman's marriage invalid, stripping her of her title while her rival watches with satisfaction.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.17
+      }
+    },
+    {
+      "rank": 45,
+      "episode": 21,
+      "segments": [
+        {
+          "start": "01:23.00",
+          "end": "01:54.00"
+        }
+      ],
+      "duration_s": 31.0,
+      "hook": "PRUDENCE (Fervent, Devoted): \"I have no money, Lady Juliana, but I swear on my life, I will do anything to repay you.\"",
+      "cliffhanger": "[ACTION] Lady Juliana sits motionless at the rustic wooden table, her bandaged hands holding open her late mother's leather-bound herbal ledger. Her eyes reflect deep apprehension as the dire truth settles over her.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger; high curiosity gap (clear alone, wants a next step); stranger's view: A desperate woman informs a Lady that the Dowager Duchess is suffering from a mysterious, incurable illness, prompting the Lady to consult her late mother's medical records with growing alarm.",
+      "score": 5.09,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.2,
+        "cliff": 6.7,
+        "standalone": 6.5,
+        "intensity": 2.0
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.6,
+        "standalone": 6.0,
+        "intensity": 2.0
+      },
+      "learned_scores": {
+        "hook": 6.46,
+        "cliff": 8.81
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the debt Prudence owes Lady Juliana is unclear, specifically regarding the 'brother's breath' payment.",
+          "The relationship between Prudence and Lady Juliana is undefined, making it difficult to understand why a woman with no money is in a position to offer repayment to a Lady.",
+          "The significance of the 'late mother's herbal ledger' is not established, leaving the viewer to guess why Lady Juliana is consulting it."
+        ],
+        "future_questions": [
+          "Is Prudence responsible for the Dowager Duchess's illness?",
+          "What is the connection between the herbal ledger and the mysterious sickness?",
+          "Will Lady Juliana use the information in the ledger to help or harm the Duchess?",
+          "What does Prudence want from Lady Juliana in exchange for this information?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A desperate woman informs a Lady that the Dowager Duchess is suffering from a mysterious, incurable illness, prompting the Lady to consult her late mother's medical records with growing alarm.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.92
+      }
+    },
+    {
+      "rank": 46,
+      "episode": 22,
+      "segments": [
+        {
+          "start": "01:45.50",
+          "end": "02:11.00"
+        }
+      ],
+      "duration_s": 25.5,
+      "hook": "[ACTION] Lady Juliana reaches out with a trembling hand and quietly turns the ornate brass and glass door knob.",
+      "cliffhanger": "LADY JULIANA (Urgent, Alarmed): \"Who has been treating you?\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: Lady Juliana sneaks into a room to check on a dying Duchess, only to realize with horror that the woman is suffering from something far more sinister than a standard fever.",
+      "score": 5.09,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 5.7,
+        "standalone": 6.5,
+        "intensity": 1.8
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 6.1,
+        "standalone": 6.0,
+        "intensity": 1.8
+      },
+      "learned_scores": {
+        "hook": 8.38,
+        "cliff": 5.31
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of 'Your Grace' and their relationship to Lady Juliana is unclear.",
+          "It is unknown why the Dowager Duchess is in such a critical, mysterious state or why Lady Juliana is the one tending to her in secret."
+        ],
+        "future_questions": [
+          "What is actually causing the Duchess's illness if it isn't a fever?",
+          "Who has been treating the Duchess, and are they responsible for her condition?",
+          "Will the Duchess survive long enough to answer Lady Juliana?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 9,
+        "summary": "Lady Juliana sneaks into a room to check on a dying Duchess, only to realize with horror that the woman is suffering from something far more sinister than a standard fever.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.95
+      }
+    },
+    {
+      "rank": 47,
+      "episode": 40,
+      "segments": [
+        {
+          "start": "01:09.80",
+          "end": "01:50.08"
+        }
+      ],
+      "duration_s": 40.3,
+      "hook": "ELDER NOBLEMAN (Ruthless, Victorious): \"By sunset, Ashburgh will have its new Duke and Duchess.\"",
+      "cliffhanger": "[ACTION] Rupert and Catherine exchange conspiratorial, triumphant smiles at the altar as the solemn organ chord holds and the scene cuts to black.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger; stranger's view: During a wedding ceremony, a ruthless nobleman plots to install new leadership and execute a witch while a pair of conspirators exchange triumphant smiles at the altar.",
+      "score": 5.08,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.7,
+        "cliff": 6.4,
+        "standalone": 5.2,
+        "intensity": 5.6
+      },
+      "rule_scores": {
+        "hook": 5.0,
+        "cliff": 4.0,
+        "standalone": 5.0,
+        "intensity": 5.6
+      },
+      "learned_scores": {
+        "hook": 2.35,
+        "cliff": 8.81
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is the 'witch' being referred to and why is she being targeted?",
+          "What is the specific history between Catherine and the 'ignored cousin' that makes their current status a triumph?",
+          "What is the nature of the conspiracy between Rupert and Catherine?"
+        ],
+        "future_questions": [
+          "Who is the witch, and will she be killed before the wedding concludes?",
+          "What is the true goal of Catherine and Rupert's conspiracy?",
+          "How will the Elder Nobleman's plan to install a new Duke and Duchess play out?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 8,
+        "summary": "During a wedding ceremony, a ruthless nobleman plots to install new leadership and execute a witch while a pair of conspirators exchange triumphant smiles at the altar.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.42
+      }
+    },
+    {
+      "rank": 48,
+      "episode": 29,
+      "segments": [
+        {
+          "start": "00:02.90",
+          "end": "00:46.50"
+        }
+      ],
+      "duration_s": 43.6,
+      "hook": "[ACTION] Juliana resists furiously, her feet stumbling on the wet flagstones as the guards forcibly propel her forward.",
+      "cliffhanger": "JULIANA (Screaming, Desperate): \"You cannot just destroy it!\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Juliana is forcibly dragged away by guards while pleading with a cruel woman named Catherine to return her mother's medicinal journal before it is used as evidence to frame her for witchcraft.",
+      "score": 5.05,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.5,
+        "cliff": 2.8,
+        "standalone": 6.5,
+        "intensity": 6.5
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 5.0,
+        "standalone": 6.0,
+        "intensity": 6.5
+      },
+      "learned_scores": {
+        "hook": 7.59,
+        "cliff": 0.64
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the relationship between Juliana and Catherine is unclear, specifically why Catherine has the power to seize Juliana's property and threaten her with the magistrate.",
+          "It is not established why Catherine is targeting this specific book or what her underlying motive is for framing Juliana for witchcraft."
+        ],
+        "future_questions": [
+          "Will Catherine actually hand the book over to the magistrate?",
+          "Can Juliana escape the guards or prove the book is medicine before she is accused of witchcraft?",
+          "What is Catherine's true motivation for wanting to destroy Juliana's reputation?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "A woman named Juliana is forcibly dragged away by guards while pleading with a cruel woman named Catherine to return her mother's medicinal journal before it is used as evidence to frame her for witchcraft.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.95
+      }
+    },
+    {
+      "rank": 49,
+      "episode": 1,
+      "segments": [
+        {
+          "start": "00:01.00",
+          "end": "00:35.00"
+        }
+      ],
+      "duration_s": 34.0,
+      "hook": "[ACTION] Juliana pauses at the threshold, her expression bright with joyful anticipation, wearing her mother's vintage gown and an oval pendant necklace.",
+      "cliffhanger": "LADY JULIANA (Shaken, Whispering): \"Gerald?\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A bride named Juliana arrives at her wedding ceremony only to be stopped by a cold Matriarch who implies that her groom, Gerald, is no longer waiting for her.",
+      "score": 5.03,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 4.9,
+        "standalone": 7.2,
+        "intensity": 1.7
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.5,
+        "standalone": 7.0,
+        "intensity": 1.7
+      },
+      "learned_scores": {
+        "hook": 8.58,
+        "cliff": 5.34
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity and relationship of the 'Matriarch' to Juliana is unclear.",
+          "The significance of the 'vintage gown' and 'oval pendant' is implied but not explained.",
+          "The nature of the relationship between Juliana and Gerald is assumed to be romantic, but their specific history is unknown."
+        ],
+        "future_questions": [
+          "What exactly is at the altar that has shocked Juliana?",
+          "Where is Gerald?",
+          "What is the Matriarch's role in whatever has happened to Gerald?",
+          "Is Gerald dead, missing, or has he abandoned the wedding?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 9,
+        "summary": "A bride named Juliana arrives at her wedding ceremony only to be stopped by a cold Matriarch who implies that her groom, Gerald, is no longer waiting for her.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.42
+      }
+    },
+    {
+      "rank": 50,
+      "episode": 35,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:30.80"
+        }
+      ],
+      "duration_s": 30.8,
+      "hook": "[ACTION] Alexander's mother, frail with silver hair under a dark hooded cloak, braces her hand against the rough stone wall, panting heavily in fear.",
+      "cliffhanger": "[ACTION] Alexander, wearing a rugged trench coat, his scarred face framed by long dark hair, stands studying an unfolded tactical map before snapping his head up in alarm.",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A frail, elderly woman escapes a stone building into a snowy night and arrives at a location where a scarred man named Alexander is studying a map.",
+      "score": 5.02,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 5.4,
+        "standalone": 6.7,
+        "intensity": 1.2
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 1.0,
+        "standalone": 6.5,
+        "intensity": 1.2
+      },
+      "learned_scores": {
+        "hook": 8.68,
+        "cliff": 9.86
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is Alexander and why is his mother fleeing a house?",
+          "What is the nature of the 'house' she is escaping from that makes her fear for her life?",
+          "What is the relationship between the mother and the man in the trench coat?"
+        ],
+        "future_questions": [
+          "Will Alexander recognize the woman entering his location?",
+          "Is Alexander an ally or an enemy to the woman?",
+          "What is the significance of the tactical map Alexander is studying?",
+          "Who or what is pursuing the mother through the snow?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A frail, elderly woman escapes a stone building into a snowy night and arrives at a location where a scarred man named Alexander is studying a map.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.92
+      }
+    },
+    {
+      "rank": 51,
+      "episode": 46,
+      "segments": [
+        {
+          "start": "01:21.10",
+          "end": "01:46.50"
+        }
+      ],
+      "duration_s": 25.4,
+      "hook": "JULIANA (Shouting, Triumphant): \"God married us, Father! You are just angry no one asked you first!\"",
+      "cliffhanger": "ALEXANDER (Cold, Resolute): \"A Duke's marriage is judged by the Crown's peerage court, not by a parish priest's seal.\"",
+      "why_it_works": "best available window; weakest on standalone",
+      "score": 5.01,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 3.6,
+        "standalone": 3.1,
+        "intensity": 10.0
+      },
+      "rule_scores": {
+        "hook": 6.6,
+        "cliff": 2.6,
+        "standalone": 4.5,
+        "intensity": 10.0
+      },
+      "learned_scores": {
+        "hook": 3.72,
+        "cliff": 4.62
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Crown",
+          "unseen: Duke",
+          "unseen: Father"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 1.75,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 52,
+      "episode": 13,
+      "segments": [
+        {
+          "start": "01:14.50",
+          "end": "01:52.00"
+        }
+      ],
+      "duration_s": 37.5,
+      "hook": "[ACTION] Juliana drags her body across the frozen, cracked soil beneath the dense roof of briars.",
+      "cliffhanger": "[ACTION] Juliana reaches out her torn, bloodied hand and wraps her fingers tightly around the emerald ring.",
+      "why_it_works": "best available window; weakest on standalone",
+      "score": 5.01,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.4,
+        "cliff": 5.5,
+        "standalone": 4.5,
+        "intensity": 3.8
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 1.0,
+        "standalone": 6.0,
+        "intensity": 3.8
+      },
+      "learned_scores": {
+        "hook": 7.37,
+        "cliff": 9.92
+      },
+      "curiosity_gap": {
+        "past_confusions": [],
+        "future_questions": [],
+        "summary": "",
+        "source": "proxy",
+        "gap": 3.0,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 53,
+      "episode": 14,
+      "segments": [
+        {
+          "start": "00:00.50",
+          "end": "00:25.00"
+        }
+      ],
+      "duration_s": 24.5,
+      "hook": "[ACTION] Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the thorns, revealing the ornate emerald signet ring resting in her palm.",
+      "cliffhanger": "ALEXANDER (Trembling, Heartbroken): \"What have they done to you?\"",
+      "why_it_works": "stranger's view: A bloodied woman trades a mysterious emerald ring to a constable in exchange for the release of her captive husband.",
+      "score": 5.0,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 5.7,
+        "standalone": 6.6,
+        "intensity": 3.5
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 3.1,
+        "standalone": 7.5,
+        "intensity": 3.5
+      },
+      "learned_scores": {
+        "hook": 8.58,
+        "cliff": 8.23
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who are 'they' that caused Juliana's injuries and held Alexander captive?",
+          "What is the significance of the emerald signet ring and why was it the price for Alexander's freedom?",
+          "What is the nature of the conflict between Juliana and the Constable?"
+        ],
+        "future_questions": [
+          "Will Juliana survive her injuries?",
+          "What will Alexander do now that he is free?",
+          "What is the true power or importance of the ring Juliana retrieved?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A bloodied woman trades a mysterious emerald ring to a constable in exchange for the release of her captive husband.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 54,
+      "episode": 20,
+      "segments": [
+        {
+          "start": "01:16.30",
+          "end": "01:54.75"
+        }
+      ],
+      "duration_s": 38.5,
+      "hook": "JULIANA (Passionate, Unflinching): \"The chapel is gone, Seamus. I am the only healer these people have left.\"",
+      "cliffhanger": "CATHERINE (Cold, Ruthless): \"This house will only bow to me.\"",
+      "why_it_works": "stranger's view: A defiant healer named Juliana clashes with a ruthless noblewoman named Catherine, who is plotting to seize control of an estate called Ashbury by eliminating the current Duchess.",
+      "score": 4.99,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.0,
+        "cliff": 6.0,
+        "standalone": 5.8,
+        "intensity": 2.0
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 4.6,
+        "standalone": 6.0,
+        "intensity": 2.0
+      },
+      "learned_scores": {
+        "hook": 6.4,
+        "cliff": 7.31
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity and significance of 'the chapel' and why its destruction impacts Juliana's role.",
+          "The nature of the 'basket' Juliana insists on keeping and why it is a point of contention.",
+          "The specific relationship between Catherine, Rupert, and the 'old Duchess' who currently holds Ashbury.",
+          "The history behind why Juliana was 'reduced' from a higher status to a healer for the peasants."
+        ],
+        "future_questions": [
+          "What is Catherine planning to do to ensure the old Duchess is gone?",
+          "Will Juliana attempt to stop Catherine's takeover of Ashbury?",
+          "What is the significance of the 'weeds' the peasants are praying to?",
+          "How will Catherine react if she discovers Juliana is still active as a healer?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 7,
+        "summary": "A defiant healer named Juliana clashes with a ruthless noblewoman named Catherine, who is plotting to seize control of an estate called Ashbury by eliminating the current Duchess.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.65
+      }
+    },
+    {
+      "rank": 55,
+      "episode": 30,
+      "segments": [
+        {
+          "start": "01:34.60",
+          "end": "02:31.21"
+        }
+      ],
+      "duration_s": 56.6,
+      "hook": "ELDER NOBLEMAN (Authoritative, Command): \"Do not hide the evidence, manufacture it. Drag her before the magistrate tomorrow, frame the trial, buy the jury, and let the State hang her.\"",
+      "cliffhanger": "[ACTION] Juliana clutches a rough burlap rag to her trembling chest, her tear-stained face lifting upward in dread and fragile hope as the frame holds, cutting abruptly to black.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, sound sting; stranger's view: A group of cold-blooded noblemen conspire to frame a young woman named Juliana for witchcraft to protect their reputation and eliminate a threat.",
+      "score": 4.95,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.2,
+        "cliff": 7.7,
+        "standalone": 6.0,
+        "intensity": 2.6
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 5.5,
+        "standalone": 6.0,
+        "intensity": 2.6
+      },
+      "learned_scores": {
+        "hook": 4.9,
+        "cliff": 9.88
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of the woman being framed and her relationship to the 'witch's disgraced daughter' (Juliana) is unclear.",
+          "The significance of the 'botanical ledger' as evidence is not explained.",
+          "The nature of the 'Dowager's' prior accusations against the household is unknown.",
+          "The specific history or conflict between the noblemen and Juliana is not established."
+        ],
+        "future_questions": [
+          "Will Juliana be able to escape or prove her innocence before the trial?",
+          "What is the true nature of the 'botanical ledger' and why is it dangerous?",
+          "Will the Dowager attempt to intervene despite her condition?",
+          "What is the motive behind the noblemen's desire to frame Juliana specifically?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A group of cold-blooded noblemen conspire to frame a young woman named Juliana for witchcraft to protect their reputation and eliminate a threat.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.9
+      }
+    },
+    {
+      "rank": 56,
+      "episode": 17,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:44.70"
+        }
+      ],
+      "duration_s": 44.7,
+      "hook": "[ACTION] Juliana sits on her knees in her dirt-smudged dress, her hands wrapped in clean linen bandages, sorrowfully examining the wreckage. In the distant background, Alexander paces near the perimeter fence.",
+      "cliffhanger": "JULIANA (Tender, Reproachful): \"You were bleeding last night.\"",
+      "why_it_works": "stranger's view: After a violent encounter with unknown men, a protective man named Alexander vows to keep a wounded woman named Juliana safe, despite her doubts about his ability to protect her.",
+      "score": 4.92,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.5,
+        "cliff": 5.4,
+        "standalone": 6.3,
+        "intensity": 0.8
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 2.0,
+        "standalone": 7.5,
+        "intensity": 0.8
+      },
+      "learned_scores": {
+        "hook": 8.98,
+        "cliff": 8.71
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who are 'those men' that threatened Juliana, and why were they targeting her?",
+          "What caused the 'wreckage' and the injuries on Juliana's hands and Alexander's hand?",
+          "What is the nature of the relationship between Juliana and Alexander, and why is he protecting her?"
+        ],
+        "future_questions": [
+          "Will the men who threatened Juliana return to attack them again?",
+          "Can Alexander actually keep his vow to protect her, or will his promise lead to his downfall?",
+          "What is the significance of the 'wreckage' and the environment they are living in?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 7,
+        "summary": "After a violent encounter with unknown men, a protective man named Alexander vows to keep a wounded woman named Juliana safe, despite her doubts about his ability to protect her.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.17
+      }
+    },
+    {
+      "rank": 57,
+      "episode": 6,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:40.00"
+        }
+      ],
+      "duration_s": 40.0,
+      "hook": "[ACTION] Juliana lifts the hem of her white satin wedding gown to keep it out of the pooling mud, shivering under her dark hooded cloak.",
+      "cliffhanger": "[ACTION] The heavy wooden cottage door creaks open. Juliana steps across the threshold into the dark, barren room.",
+      "why_it_works": "stranger's view: A bride in a wedding gown abandons her previous life to seek refuge in a desolate cottage in the woods with a mysterious man.",
+      "score": 4.91,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.4,
+        "cliff": 5.8,
+        "standalone": 6.1,
+        "intensity": 0.4
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 2.0,
+        "standalone": 7.0,
+        "intensity": 0.4
+      },
+      "learned_scores": {
+        "hook": 8.73,
+        "cliff": 9.68
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Why is a bride in a wedding gown walking through a muddy forest in the rain?",
+          "What specific event caused her day to be 'already ruined' and led to her potential humiliation?",
+          "What is the relationship between the bride and the mysterious bearded man?"
+        ],
+        "future_questions": [
+          "Who or what is inside the cottage?",
+          "Why is the bride seeking refuge in such a barren, isolated place?",
+          "What is the nature of the 'life' she came from that she is now leaving behind?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 7,
+        "summary": "A bride in a wedding gown abandons her previous life to seek refuge in a desolate cottage in the woods with a mysterious man.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.17
+      }
+    },
+    {
+      "rank": 58,
+      "episode": 22,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:42.50"
+        }
+      ],
+      "duration_s": 42.5,
+      "hook": "[ACTION] Lady Juliana walks nervously along the stone pavement dressed in a modest dark maid's dress and a plain white apron, looking around cautiously.",
+      "cliffhanger": "[ACTION] Prudence opens the heavy wooden service door, and both women step inside into the dark servants' corridor as the door shuts firmly behind them.",
+      "why_it_works": "stranger's view: A woman disguised as a maid sneaks into a manor to save a dying Duchess, despite the extreme risk of being recognized.",
+      "score": 4.91,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 4.7,
+        "standalone": 6.7,
+        "intensity": 1.9
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 3.0,
+        "standalone": 7.5,
+        "intensity": 1.9
+      },
+      "learned_scores": {
+        "hook": 8.68,
+        "cliff": 6.45
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is Toby and why did saving him necessitate this disguise?",
+          "What is the specific nature of the relationship between Lady Juliana and the dying Duchess?",
+          "Why is Lady Juliana's true identity a threat to the mission or her safety?"
+        ],
+        "future_questions": [
+          "Will Lady Juliana be caught by the housekeeper or Lord Rupert?",
+          "Can she actually save the Duchess, or is this a trap?",
+          "What happens if her true identity is revealed while inside the manor?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "A woman disguised as a maid sneaks into a manor to save a dying Duchess, despite the extreme risk of being recognized.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.92
+      }
+    },
+    {
+      "rank": 59,
+      "episode": 11,
+      "segments": [
+        {
+          "start": "00:14.40",
+          "end": "01:00.10"
+        }
+      ],
+      "duration_s": 45.7,
+      "hook": "JULIANA (Furious, Defiant): \"You have already taken enough from me. Leave!\"",
+      "cliffhanger": "[ACTION] The Constable aggressively pulls folded bed linens from a shelf and hurls them onto the damp floor.",
+      "why_it_works": "stranger's view: A man named Gerald accuses a couple of stealing his pocket watch, prompting a Constable to aggressively ransack their home despite the couple's protests.",
+      "score": 4.89,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.1,
+        "cliff": 3.8,
+        "standalone": 6.0,
+        "intensity": 5.2
+      },
+      "rule_scores": {
+        "hook": 9.6,
+        "cliff": 1.0,
+        "standalone": 6.0,
+        "intensity": 5.2
+      },
+      "learned_scores": {
+        "hook": 0.52,
+        "cliff": 6.62
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the prior relationship between Juliana and Gerald is unclear, specifically why he feels entitled to enter their home or why she says he has 'already taken enough'.",
+          "The history of the 'beggar' comment and the specific social standing of Alexander is referenced but not explained.",
+          "The reason for the Constable's immediate willingness to conduct a violent search based solely on an unverified accusation is not established."
+        ],
+        "future_questions": [
+          "Will the Constable actually find the stolen pocket watch, or did Gerald plant it?",
+          "What is Alexander's secret, given his sudden, calm resignation to the search?",
+          "Will the destruction of the mother's medicine have immediate, dire consequences for her health?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "A man named Gerald accuses a couple of stealing his pocket watch, prompting a Constable to aggressively ransack their home despite the couple's protests.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.92
+      }
+    },
+    {
+      "rank": 60,
+      "episode": 12,
+      "segments": [
+        {
+          "start": "00:56.80",
+          "end": "01:27.21"
+        }
+      ],
+      "duration_s": 30.4,
+      "hook": "[ACTION] Gerald bursts into a loud, mocking laugh beside the stony Constable.",
+      "cliffhanger": "[ACTION] Juliana locks eyes with Clarissa without flinching as the scene freezes on her brave, sacrificial defiance.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger, visual reveal/shock",
+      "score": 4.84,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.6,
+        "cliff": 6.0,
+        "standalone": 5.1,
+        "intensity": 2.6
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 5.0,
+        "standalone": 6.0,
+        "intensity": 2.6
+      },
+      "learned_scores": {
+        "hook": 7.16,
+        "cliff": 7.1
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "back-references"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 4.25,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 61,
+      "episode": 19,
+      "segments": [
+        {
+          "start": "01:13.50",
+          "end": "01:52.50"
+        }
+      ],
+      "duration_s": 39.0,
+      "hook": "INFORMANT (Grave): \"The people who served your family for years have been dismissed, frightened away, or replaced.\"",
+      "cliffhanger": "[ACTION] Alexander sits down beside her in the straw. Juliana leans gently against his shoulder, letting her weary head rest against his broad chest.",
+      "why_it_works": "stranger's view: A man presumed dead by the public plots to reclaim his family's estate while seeking refuge in a barn with a woman who has lost hope.",
+      "score": 4.83,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.9,
+        "cliff": 4.1,
+        "standalone": 5.6,
+        "intensity": 2.6
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 1.0,
+        "standalone": 6.0,
+        "intensity": 2.6
+      },
+      "learned_scores": {
+        "hook": 8.38,
+        "cliff": 7.29
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is Alexander and why is he presumed dead?",
+          "What is the nature of the 'proof' being sought?",
+          "What is the significance of 'Ashburg' and why does it belong to Alexander?",
+          "What is the specific history between Alexander and Juliana that led to their current state of having 'lost everything'?"
+        ],
+        "future_questions": [
+          "How does Alexander plan to reclaim Ashburg?",
+          "What is the 'proof' they are trying to obtain?",
+          "Will Alexander reveal that he is alive to his mother, or will he continue the ruse?",
+          "What is the immediate threat they are hiding from in the barn?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 7,
+        "summary": "A man presumed dead by the public plots to reclaim his family's estate while seeking refuge in a barn with a woman who has lost hope.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.15
+      }
+    },
+    {
+      "rank": 62,
+      "episode": 49,
+      "segments": [
+        {
+          "start": "01:44.20",
+          "end": "02:04.50"
+        }
+      ],
+      "duration_s": 20.3,
+      "hook": "FATHER THOMAS (Wary, Grave): \"If I keep the hearing open, if I feed you every word spoken behind those doors, what happens to me when the Duke finds out a crowned priest conspired against him?\"",
+      "cliffhanger": "FATHER THOMAS (Stern, Stark): \"Careful men still hang, my lady, when the crime is treason against a Duke the King himself just restored.\"",
+      "why_it_works": "stranger's view: A woman attempts to manipulate a wary priest into committing treason by spying on a secret hearing involving a powerful Duke.",
+      "score": 4.82,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.6,
+        "cliff": 3.9,
+        "standalone": 4.2,
+        "intensity": 8.3
+      },
+      "rule_scores": {
+        "hook": 4.5,
+        "cliff": 3.0,
+        "standalone": 4.5,
+        "intensity": 8.3
+      },
+      "learned_scores": {
+        "hook": 6.74,
+        "cliff": 4.78
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the 'hearing' and what specific information is being discussed.",
+          "The identity of the Duke and why he is a threat to a priest.",
+          "The relationship between Catherine and Father Thomas, specifically why she has leverage or influence over him.",
+          "The context of the King restoring the Duke to power."
+        ],
+        "future_questions": [
+          "Will Father Thomas agree to spy on the hearing for Catherine?",
+          "What is Catherine's ultimate goal in conspiring against the Duke?",
+          "What will happen to Father Thomas if he is caught?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 7,
+        "summary": "A woman attempts to manipulate a wary priest into committing treason by spying on a secret hearing involving a powerful Duke.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 3.9
+      }
+    },
+    {
+      "rank": 63,
+      "episode": 43,
+      "segments": [
+        {
+          "start": "00:00.60",
+          "end": "00:25.80"
+        }
+      ],
+      "duration_s": 25.2,
+      "hook": "BLOND NOBLEMAN (Hysterical, Panicked): \"You're lying!\"",
+      "cliffhanger": "BLOND NOBLEMAN (Desperate, Flustered): \"You have all been deceived!\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A frantic nobleman named Rupert is publicly denounced as an imposter by his own guards, who instead pledge their loyalty to a composed man named Alexander.",
+      "score": 4.8,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.5,
+        "cliff": 3.7,
+        "standalone": 6.8,
+        "intensity": 7.2
+      },
+      "rule_scores": {
+        "hook": 4.3,
+        "cliff": 2.6,
+        "standalone": 6.5,
+        "intensity": 7.2
+      },
+      "learned_scores": {
+        "hook": 2.69,
+        "cliff": 4.86
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of the 'true' Duke is unclear, as both Rupert and Alexander are presented as claimants.",
+          "The nature of the deception Rupert claims has occurred is never explained.",
+          "The relationship between Lord Sterling and the two men is undefined, making his reaction difficult to interpret."
+        ],
+        "future_questions": [
+          "How did Alexander manage to convince the Royal Guard to betray Rupert?",
+          "What physical or social proof does Alexander have to validate his claim as the Duke?",
+          "Will the guards physically remove Rupert from the church?",
+          "How will the other nobles, like Lord Sterling, react to this power shift?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 9,
+        "summary": "A frantic nobleman named Rupert is publicly denounced as an imposter by his own guards, who instead pledge their loyalty to a composed man named Alexander.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.17
+      }
+    },
+    {
+      "rank": 64,
+      "episode": 33,
+      "segments": [
+        {
+          "start": "02:25.00",
+          "end": "02:54.04"
+        }
+      ],
+      "duration_s": 29.0,
+      "hook": "LORD (Chillingly Detached): \"You do not need to.\"",
+      "cliffhanger": "[ACTION] The heartbroken maid weeps silently in the shadow of the desk, consumed by guilt and powerlessness.",
+      "why_it_works": "cliffhanger: ends on episode's own cliffhanger",
+      "score": 4.73,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.1,
+        "cliff": 6.8,
+        "standalone": 3.9,
+        "intensity": 3.2
+      },
+      "rule_scores": {
+        "hook": 3.6,
+        "cliff": 4.0,
+        "standalone": 6.0,
+        "intensity": 3.2
+      },
+      "learned_scores": {
+        "hook": 4.54,
+        "cliff": 9.64
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Lady",
+          "unseen: Juliana",
+          "back-references"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 1.75,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 65,
+      "episode": 25,
+      "segments": [
+        {
+          "start": "01:26.20",
+          "end": "02:07.50"
+        }
+      ],
+      "duration_s": 41.3,
+      "hook": "[ACTION] Alexander's hand drops to his side and clenches into a white-knuckled fist, the thick scar across his hand tightening with intense restraint.",
+      "cliffhanger": "JULIANA (Gentle, Perplexed): \"Alexander... why are you so angry?\"",
+      "why_it_works": "stranger's view: Juliana reveals to a visibly distressed and angry Alexander that she has been secretly treating a woman who is being slowly poisoned, leading to a tense confrontation about her safety.",
+      "score": 4.72,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 5.6,
+        "standalone": 5.1,
+        "intensity": 1.1
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 2.5,
+        "standalone": 6.0,
+        "intensity": 1.1
+      },
+      "learned_scores": {
+        "hook": 8.68,
+        "cliff": 8.67
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is the sick woman being poisoned, and why is she being targeted?",
+          "Who is Prudence, and what is her role in this situation?",
+          "What is the nature of the relationship between Alexander and Juliana that makes him so intensely protective or anxious about her actions?",
+          "Why does Alexander react with such visible anger and restraint to the news that Juliana is treating someone?"
+        ],
+        "future_questions": [
+          "Why is Alexander so afraid of Juliana returning to the sick woman?",
+          "Who is poisoning the woman, and why is Alexander seemingly involved or deeply affected by this secret?",
+          "Will Juliana defy Alexander's obvious disapproval to continue her treatment?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 8,
+        "summary": "Juliana reveals to a visibly distressed and angry Alexander that she has been secretly treating a woman who is being slowly poisoned, leading to a tense confrontation about her safety.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 4.15
+      }
+    },
+    {
+      "rank": 66,
+      "episode": 6,
+      "segments": [
+        {
+          "start": "00:56.40",
+          "end": "01:23.80"
+        }
+      ],
+      "duration_s": 27.4,
+      "hook": "JULIANA (Earnest, Content): \"I think I like that.\"",
+      "cliffhanger": "[ACTION] He strikes flint and steel together over dry kindling, igniting bright sparks that catch into a flickering flame.",
+      "why_it_works": "stranger's view: A woman and a bearded man settle into a new, sparse home, choosing to focus on cleaning and building a fire to distract themselves from a recent, unspecified loss.",
+      "score": 4.64,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.3,
+        "cliff": 5.4,
+        "standalone": 5.5,
+        "intensity": 2.8
+      },
+      "rule_scores": {
+        "hook": 4.5,
+        "cliff": 1.0,
+        "standalone": 7.0,
+        "intensity": 2.8
+      },
+      "learned_scores": {
+        "hook": 4.1,
+        "cliff": 9.83
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the 'disappointment' Juliana refers to is completely opaque.",
+          "The context of what they 'lost' is never explained, leaving the emotional weight of the scene ungrounded.",
+          "The relationship between Juliana and the Mysterious Bearded Man is undefined; it is unclear if they are partners, strangers, or captives."
+        ],
+        "future_questions": [
+          "What exactly did they lose?",
+          "Why are they in this specific location?",
+          "What is the nature of their relationship?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 3,
+        "summary": "A woman and a bearded man settle into a new, sparse home, choosing to focus on cleaning and building a fire to distract themselves from a recent, unspecified loss.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 3.92
+      }
+    },
+    {
+      "rank": 67,
+      "episode": 37,
+      "segments": [
+        {
+          "start": "01:09.50",
+          "end": "01:35.50"
+        }
+      ],
+      "duration_s": 26.0,
+      "hook": "LADY CLARISSA (Chilling, Sharp): \"Not just an execution. A warning.\"",
+      "cliffhanger": "[ACTION] Juliana curls her fingers back, pulling away from the foul sustenance in defiance.",
+      "why_it_works": "stranger's view: A cold-hearted woman named Lady Clarissa discusses the impending execution of a prisoner named Juliana as a warning to other women, while the captive Juliana remains defiant in her cell.",
+      "score": 4.63,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.5,
+        "cliff": 6.0,
+        "standalone": 5.3,
+        "intensity": 3.5
+      },
+      "rule_scores": {
+        "hook": 3.6,
+        "cliff": 2.5,
+        "standalone": 5.0,
+        "intensity": 3.5
+      },
+      "learned_scores": {
+        "hook": 3.49,
+        "cliff": 9.48
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is Juliana and what specific actions did she take to warrant this punishment?",
+          "What is the nature of the 'place' women are expected to stay in within this society?",
+          "What is the relationship between Lady Clarissa and the nobleman?"
+        ],
+        "future_questions": [
+          "Will Juliana be executed, or is there a way for her to escape this dungeon?",
+          "What happens when the 'lesson' is officially carried out?",
+          "Will anyone attempt to rescue Juliana from her imprisonment?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A cold-hearted woman named Lady Clarissa discusses the impending execution of a prisoner named Juliana as a warning to other women, while the captive Juliana remains defiant in her cell.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 68,
+      "episode": 2,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:37.10"
+        }
+      ],
+      "duration_s": 37.1,
+      "hook": "THE FORMER GROOM (Cold, Callous): \"I cannot marry you, Juliana.\"",
+      "cliffhanger": "LADY JULIANA (Choked with Tears): \"Surely you will not let him humiliate me like this?\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A cruel man named Gerald heartlessly breaks off his engagement to Juliana, leaving her devastated and pleading for her father's intervention.",
+      "score": 4.61,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.9,
+        "cliff": 2.9,
+        "standalone": 8.0,
+        "intensity": 2.8
+      },
+      "rule_scores": {
+        "hook": 4.3,
+        "cliff": 3.5,
+        "standalone": 8.5,
+        "intensity": 2.8
+      },
+      "learned_scores": {
+        "hook": 5.46,
+        "cliff": 2.34
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of the 'she' Gerald refers to as the 'better choice' is never established.",
+          "The nature of the event is unclear; it is not explicitly stated if this is the wedding ceremony itself or a private meeting before the wedding."
+        ],
+        "future_questions": [
+          "Will Juliana's father intervene to defend her honor?",
+          "Who is the woman Gerald has chosen instead of Juliana?",
+          "What will be the social consequences for Juliana after being publicly humiliated?"
+        ],
+        "standalone_clarity": 8,
+        "cliffhanger_pull": 9,
+        "summary": "A cruel man named Gerald heartlessly breaks off his engagement to Juliana, leaving her devastated and pleading for her father's intervention.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.45
+      }
+    },
+    {
+      "rank": 69,
+      "episode": 16,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:21.80"
+        }
+      ],
+      "duration_s": 21.8,
+      "hook": "[ACTION] Alexander stands tall and unyielding, blocking the path to Juliana, while the Thug with Cap steps forward clutching an iron pipe.",
+      "cliffhanger": "[ACTION] Alexander strikes the thug across the chest and slams him violently into the muddy ground beside the stone wall.",
+      "why_it_works": "stranger's view: A man named Alexander effortlessly disarms and subdues an aggressive thug who was threatening him and a frightened woman named Juliana.",
+      "score": 4.6,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.1,
+        "cliff": 5.5,
+        "standalone": 6.5,
+        "intensity": 4.3
+      },
+      "rule_scores": {
+        "hook": 2.8,
+        "cliff": 1.0,
+        "standalone": 7.5,
+        "intensity": 4.3
+      },
+      "learned_scores": {
+        "hook": 5.36,
+        "cliff": 9.94
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Why is Alexander referred to as a 'soldier'?",
+          "What is the nature of the relationship between Alexander and Juliana?",
+          "Why are these individuals in a confrontation in what appears to be a remote or muddy location?"
+        ],
+        "future_questions": [
+          "Will the thug get back up to fight again?",
+          "Are there more attackers hiding nearby?",
+          "Where are Alexander and Juliana trying to go?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 6,
+        "summary": "A man named Alexander effortlessly disarms and subdues an aggressive thug who was threatening him and a frightened woman named Juliana.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.42
+      }
+    },
+    {
+      "rank": 70,
+      "episode": 9,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:28.80"
+        }
+      ],
+      "duration_s": 28.8,
+      "hook": "[ACTION] Juliana methodically crushes herbs in the mortar beside her open herbal grimoire.",
+      "cliffhanger": "[ACTION] Juliana lifts the weathered herbal book and rapidly browses the handwritten pages.",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman skilled in herbal medicine and her protector rush to treat a young boy brought to their cottage by his desperate, weeping mother.",
+      "score": 4.57,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.3,
+        "cliff": 3.6,
+        "standalone": 7.7,
+        "intensity": 0.6
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 1.6,
+        "standalone": 8.5,
+        "intensity": 0.6
+      },
+      "learned_scores": {
+        "hook": 8.61,
+        "cliff": 5.58
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The relationship between Juliana and Alexander is undefined; it is unclear if he is a guard, a partner, or a protector.",
+          "The setting implies a specific social dynamic regarding 'a woman who knows herbs' that is not explained."
+        ],
+        "future_questions": [
+          "Will Juliana be able to find a cure in her book before the boy's condition worsens?",
+          "Is there a reason Alexander was so protective and cautious before opening the door?",
+          "What is the nature of the boy's illness?"
+        ],
+        "standalone_clarity": 8,
+        "cliffhanger_pull": 7,
+        "summary": "A woman skilled in herbal medicine and her protector rush to treat a young boy brought to their cottage by his desperate, weeping mother.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.95
+      }
+    },
+    {
+      "rank": 71,
+      "episode": 47,
+      "segments": [
+        {
+          "start": "00:01.80",
+          "end": "00:35.20"
+        }
+      ],
+      "duration_s": 33.4,
+      "hook": "CATHERINE (Calculated, Defiant): \"Rupert is rotting in the undercroft cells. Not me. I intend to stay on this estate.\"",
+      "cliffhanger": "JULIANA (Despairing): \"I am only a healer. The lords will never accept me.\"",
+      "why_it_works": "stranger's view: A defiant woman named Catherine plots to maintain control of her estate and manipulate the High Council while her anxious companion, a healer named Juliana, fears the consequences of their actions.",
+      "score": 4.56,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.1,
+        "cliff": 5.3,
+        "standalone": 5.1,
+        "intensity": 3.5
+      },
+      "rule_scores": {
+        "hook": 2.8,
+        "cliff": 3.5,
+        "standalone": 5.0,
+        "intensity": 3.5
+      },
+      "learned_scores": {
+        "hook": 5.41,
+        "cliff": 7.03
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is Rupert and why is he in the undercroft cells?",
+          "What is the relationship between Catherine and Juliana?",
+          "What is the specific conflict involving the marriage registry and the High Council?",
+          "Who is Alexander and why is he a threat to Catherine?"
+        ],
+        "future_questions": [
+          "How does Catherine plan to keep the High Council paralyzed?",
+          "Will Catherine be able to maintain her title despite the Council's opposition?",
+          "What is the significance of Juliana's scarred palms in relation to her status as a healer?",
+          "Will Alexander discover Catherine's presence on the estate at first light?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 7,
+        "summary": "A defiant woman named Catherine plots to maintain control of her estate and manipulate the High Council while her anxious companion, a healer named Juliana, fears the consequences of their actions.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.15
+      }
+    },
+    {
+      "rank": 72,
+      "episode": 4,
+      "segments": [
+        {
+          "start": "00:53.60",
+          "end": "01:21.50"
+        }
+      ],
+      "duration_s": 27.9,
+      "hook": "JULIANA (Defiant, Dignified): \"If this is pity, take back your ring.\"",
+      "cliffhanger": "[ACTION] He folds his fingers over hers, holding her hand with protective firmness.",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Juliana reluctantly accepts a mysterious man's offer of support after he promises his help is a vow rather than an act of pity.",
+      "score": 4.55,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.9,
+        "cliff": 5.4,
+        "standalone": 7.0,
+        "intensity": 1.2
+      },
+      "rule_scores": {
+        "hook": 2.8,
+        "cliff": 1.0,
+        "standalone": 7.0,
+        "intensity": 1.2
+      },
+      "learned_scores": {
+        "hook": 4.97,
+        "cliff": 9.82
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The significance of the ring and why it is being offered as 'pity' or 'charity' is unclear.",
+          "The nature of the 'vow' and what specific commitment the man is making to Juliana is undefined.",
+          "The context of why 'everyone else turned away' from Juliana is missing."
+        ],
+        "future_questions": [
+          "What exactly is the 'vow' the man has made?",
+          "What lies beyond the doors that Juliana is afraid of?",
+          "What is the man's true identity and why is he the only one willing to help her?",
+          "What are the consequences of Juliana accepting his offer?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A woman named Juliana reluctantly accepts a mysterious man's offer of support after he promises his help is a vow rather than an act of pity.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.92
+      }
+    },
+    {
+      "rank": 73,
+      "episode": 39,
+      "segments": [
+        {
+          "start": "00:13.80",
+          "end": "00:59.80"
+        }
+      ],
+      "duration_s": 46.0,
+      "hook": "[ACTION] Four royal guards in red ceremonial tunics and tall black bearskin hats stand rigidly at attention with rifles on the grand cathedral staircase.",
+      "cliffhanger": "[ACTION] Alexander snips through his overgrown locks, shedding the years of exile and camouflage.",
+      "why_it_works": "best available window; weakest on standalone",
+      "score": 4.55,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.8,
+        "cliff": 5.2,
+        "standalone": 3.6,
+        "intensity": 1.5
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 1.0,
+        "standalone": 5.5,
+        "intensity": 1.5
+      },
+      "learned_scores": {
+        "hook": 8.09,
+        "cliff": 9.48
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Duke"
+        ],
+        "future_questions": [],
+        "summary": "",
+        "source": "proxy",
+        "gap": 1.75,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 74,
+      "episode": 15,
+      "segments": [
+        {
+          "start": "01:03.50",
+          "end": "01:26.00"
+        }
+      ],
+      "duration_s": 22.5,
+      "hook": "[ACTION] Alexander storms forward with lethal intensity, dark hair flying, breath misting in the cold, radiating untamed rage.",
+      "cliffhanger": "THUG WITH CAP (Challenging, Arrogant): \"What? You want to fight us, veteran?\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A man named Alexander aggressively intervenes to protect a woman named Juliana from a group of three confrontational thugs.",
+      "score": 4.54,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 5.4,
+        "standalone": 6.5,
+        "intensity": 1.5
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 7.0,
+        "standalone": 6.0,
+        "intensity": 1.5
+      },
+      "learned_scores": {
+        "hook": 8.31,
+        "cliff": 3.82
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The relationship between Alexander and Juliana is undefined, making her stunned reaction to his arrival ambiguous.",
+          "The term 'veteran' is used to address Alexander, but there is no context regarding his background or why these thugs recognize him as such."
+        ],
+        "future_questions": [
+          "Will Alexander actually fight the three thugs?",
+          "How skilled is Alexander in combat compared to his opponents?",
+          "What is the history between Alexander and the thugs that led to this confrontation?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "A man named Alexander aggressively intervenes to protect a woman named Juliana from a group of three confrontational thugs.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.95
+      }
+    },
+    {
+      "rank": 75,
+      "episode": 46,
+      "segments": [
+        {
+          "start": "00:37.30",
+          "end": "01:02.50"
+        }
+      ],
+      "duration_s": 25.2,
+      "hook": "HIGH PRIEST (Harsh, Derisive): \"The church married a vagrant to a ruined lady. It never married the Duke of Ashburton to anyone.\"",
+      "cliffhanger": "JULIANA (Fierce, Defiant): \"I didn't ask this church for permission to survive, Father.\"",
+      "why_it_works": "best available window; weakest on standalone",
+      "score": 4.53,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.2,
+        "cliff": 3.6,
+        "standalone": 2.5,
+        "intensity": 9.9
+      },
+      "rule_scores": {
+        "hook": 5.0,
+        "cliff": 2.2,
+        "standalone": 4.5,
+        "intensity": 9.9
+      },
+      "learned_scores": {
+        "hook": 3.5,
+        "cliff": 4.91
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Ashburton",
+          "unseen: Father",
+          "unseen: Crown",
+          "unseen: London",
+          "back-references"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 0.5,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 76,
+      "episode": 32,
+      "segments": [
+        {
+          "start": "01:26.50",
+          "end": "01:59.50"
+        }
+      ],
+      "duration_s": 33.0,
+      "hook": "JULIANA (Resonant, Moving): \"Because that nobody showed me more love than your entire world ever did.\"",
+      "cliffhanger": "JULIANA (Piercing): \"...but you have never learned how to make anyone love you.\"",
+      "why_it_works": "stranger's view: A woman named Juliana confronts a woman named Catherine, criticizing her for prioritizing status and appearances over genuine human connection.",
+      "score": 4.53,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.8,
+        "cliff": 5.3,
+        "standalone": 5.7,
+        "intensity": 3.2
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 3.0,
+        "standalone": 5.5,
+        "intensity": 3.2
+      },
+      "learned_scores": {
+        "hook": 5.59,
+        "cliff": 7.57
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is the 'nobody' that Juliana claims showed her more love than Catherine's world?",
+          "What is the specific history or relationship between Juliana and Catherine that led to this confrontation?",
+          "What specific event or action prompted Juliana to confront Catherine about her values at this moment?"
+        ],
+        "future_questions": [
+          "How will Catherine react to the accusation that she is incapable of being loved?",
+          "Will Catherine attempt to defend her lifestyle, or will Juliana's words cause her to break down?",
+          "What is the 'nothing' that Juliana claims Catherine has left beneath her perfect exterior?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "A woman named Juliana confronts a woman named Catherine, criticizing her for prioritizing status and appearances over genuine human connection.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.92
+      }
+    },
+    {
+      "rank": 77,
+      "episode": 17,
+      "segments": [
+        {
+          "start": "01:06.00",
+          "end": "01:58.88"
+        }
+      ],
+      "duration_s": 52.9,
+      "hook": "[ACTION] Juliana rests her cheek against Alexander's chest, closing her eyes as his strong arms wrap around her shoulders, holding her safe against his frame.",
+      "cliffhanger": "JULIANA (V.O., Deeply Moved, Loving): \"But every day, he gives me another reason to trust him.\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman shares an intimate, playful moment with her husband while reflecting on the fact that she is still learning who he truly is.",
+      "score": 4.52,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.4,
+        "cliff": 5.7,
+        "standalone": 6.2,
+        "intensity": 0.5
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.0,
+        "standalone": 6.0,
+        "intensity": 0.5
+      },
+      "learned_scores": {
+        "hook": 8.73,
+        "cliff": 7.45
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of their marriage is unclear, specifically whether it was an arranged marriage, a secret union, or a recent elopement.",
+          "The significance of Alexander's 'unruly' hair and the 'not yet' comment suggests a specific, unstated reason why he is avoiding a haircut or a change in his appearance."
+        ],
+        "future_questions": [
+          "Why does Juliana know so little about her own husband?",
+          "What is the specific reason Alexander is not ready for her to 'save' him or change his appearance?",
+          "What secrets is Alexander hiding that Juliana is currently choosing to trust him despite?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 6,
+        "summary": "A woman shares an intimate, playful moment with her husband while reflecting on the fact that she is still learning who he truly is.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.45
+      }
+    },
+    {
+      "rank": 78,
+      "episode": 33,
+      "segments": [
+        {
+          "start": "00:44.80",
+          "end": "01:28.80"
+        }
+      ],
+      "duration_s": 44.0,
+      "hook": "LORD (Insistent, Cornering): \"Did she prepare things no physician had prescribed?\"",
+      "cliffhanger": "MAID (Trembling, Reluctant): \"She... placed dried herbs around him.\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step)",
+      "score": 4.48,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.5,
+        "cliff": 4.3,
+        "standalone": 7.0,
+        "intensity": 3.7
+      },
+      "rule_scores": {
+        "hook": 4.5,
+        "cliff": 3.1,
+        "standalone": 6.0,
+        "intensity": 3.7
+      },
+      "learned_scores": {
+        "hook": 2.59,
+        "cliff": 5.5
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "back-references"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 8.0,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 79,
+      "episode": 36,
+      "segments": [
+        {
+          "start": "00:04.80",
+          "end": "00:31.70"
+        }
+      ],
+      "duration_s": 26.9,
+      "hook": "ALEXANDER (Cold, Bitter): \"Because they made certain no one would look.\"",
+      "cliffhanger": "ALEXANDER'S MOTHER (Horrified): \"They gave you to the enemy?\"",
+      "why_it_works": "stranger's view: A man reveals to his horrified mother that he was betrayed and sold out to the enemy by two men named Sterling and Rupert to prevent him from exposing a secret.",
+      "score": 4.35,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.3,
+        "cliff": 4.8,
+        "standalone": 5.0,
+        "intensity": 5.0
+      },
+      "rule_scores": {
+        "hook": 2.8,
+        "cliff": 3.7,
+        "standalone": 4.5,
+        "intensity": 5.0
+      },
+      "learned_scores": {
+        "hook": 3.81,
+        "cliff": 6.0
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identities of Sterling and Rupert are unknown, making their betrayal lack specific context.",
+          "The nature of the 'discovery' Alexander made that necessitated his betrayal is never explained.",
+          "The relationship between Alexander's military position and his mother's knowledge of his past is unclear."
+        ],
+        "future_questions": [
+          "What exactly did Alexander discover that was dangerous enough to warrant his betrayal?",
+          "Will Alexander seek revenge against Sterling and Rupert?",
+          "How will Alexander's mother react to the news that her son was intentionally sacrificed to the enemy?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 8,
+        "summary": "A man reveals to his horrified mother that he was betrayed and sold out to the enemy by two men named Sterling and Rupert to prevent him from exposing a secret.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.42
+      }
+    },
+    {
+      "rank": 80,
+      "episode": 7,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:29.80"
+        }
+      ],
+      "duration_s": 29.8,
+      "hook": "[ACTION] Juliana, dressed in her simple grey long-sleeved gown, works tirelessly with soil caked beneath her fingernails.",
+      "cliffhanger": "GERALD (Arrogant, Scornful): \"A fitting home for a woman who threw away everything for a penniless soldier.\"",
+      "why_it_works": "stranger's view: A woman living in poverty is confronted and mocked by two wealthy visitors who look down on her for leaving her former life for a soldier.",
+      "score": 4.35,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.2,
+        "cliff": 4.2,
+        "standalone": 6.5,
+        "intensity": 0.0
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 1.5,
+        "standalone": 7.5,
+        "intensity": 0.0
+      },
+      "learned_scores": {
+        "hook": 8.31,
+        "cliff": 6.86
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of Juliana's relationship with the Aristocratic Woman and Gerald is unclear.",
+          "The specific 'everything' Juliana supposedly threw away is never defined.",
+          "The identity of the 'penniless soldier' is unknown, making the insult's context difficult to grasp."
+        ],
+        "future_questions": [
+          "How will Juliana respond to their insults?",
+          "What is the history between Juliana and these two visitors?",
+          "Will Juliana defend her choice or reveal why she is living in such poverty?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 7,
+        "summary": "A woman living in poverty is confronted and mocked by two wealthy visitors who look down on her for leaving her former life for a soldier.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.42
+      }
+    },
+    {
+      "rank": 81,
+      "episode": 48,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:46.80"
+        }
+      ],
+      "duration_s": 46.8,
+      "hook": "[ACTION] Catherine, adorned in an ornate dark burgundy gown with braided golden hair, gazes out the dark window before turning slowly with a cold, venomous smirk.",
+      "cliffhanger": "AGNES (Anxious, Whispering): \"My lady... the Duke has bailiffs watching every road out of the county.\"",
+      "why_it_works": "stranger's view: A vengeful noblewoman named Catherine plots to exploit a ten-day window of opportunity to undo a decree and manipulate a grieving household, while locking her maid in a room to discuss a dangerous plan.",
+      "score": 4.34,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.9,
+        "cliff": 3.8,
+        "standalone": 5.3,
+        "intensity": 2.7
+      },
+      "rule_scores": {
+        "hook": 2.8,
+        "cliff": 2.6,
+        "standalone": 6.5,
+        "intensity": 2.7
+      },
+      "learned_scores": {
+        "hook": 7.02,
+        "cliff": 5.04
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is the 'healer' and why is their crown in the gutter?",
+          "What specific event happened in the chapel that caused Catherine's humiliation?",
+          "What is the nature of the 'decree' that Catherine intends to undo?",
+          "Who is Alexander and what is his relationship to Catherine?"
+        ],
+        "future_questions": [
+          "What is Catherine planning to do to the household now that the door is locked?",
+          "How will Catherine bypass the Duke's bailiffs to execute her plan?",
+          "What role does Agnes play in Catherine's scheme?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 8,
+        "summary": "A vengeful noblewoman named Catherine plots to exploit a ten-day window of opportunity to undo a decree and manipulate a grieving household, while locking her maid in a room to discuss a dangerous plan.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 4.15
+      }
+    },
+    {
+      "rank": 82,
+      "episode": 23,
+      "segments": [
+        {
+          "start": "00:07.50",
+          "end": "00:58.50"
+        }
+      ],
+      "duration_s": 51.0,
+      "hook": "[ACTION] Juliana cradles the Duchess's frail hands in hers, inspecting her fingers with furrowed brows.",
+      "cliffhanger": "[ACTION] Juliana draws in a sharp, startled breath, her eyes widening in horror.",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Juliana examines a dying Duchess and realizes her failing health is not due to natural causes, leading to a sudden and terrifying discovery.",
+      "score": 4.33,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.0,
+        "cliff": 5.2,
+        "standalone": 6.6,
+        "intensity": 0.6
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 1.0,
+        "standalone": 6.0,
+        "intensity": 0.6
+      },
+      "learned_scores": {
+        "hook": 8.03,
+        "cliff": 9.41
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The relationship between Juliana, Prudence, and the Duchess is undefined, making it unclear why they are the ones attending to her.",
+          "It is unclear why Juliana is qualified to diagnose the Duchess or why her opinion contradicts the physician's assessment."
+        ],
+        "future_questions": [
+          "What did Juliana see or realize that caused her to react with such sudden horror?",
+          "If it isn't old age, what is actually causing the Duchess's condition?",
+          "Will Juliana be able to save the Duchess now that she has identified the true problem?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 9,
+        "summary": "A woman named Juliana examines a dying Duchess and realizes her failing health is not due to natural causes, leading to a sudden and terrifying discovery.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.2
+      }
+    },
+    {
+      "rank": 83,
+      "episode": 5,
+      "segments": [
+        {
+          "start": "01:10.50",
+          "end": "01:50.50"
+        }
+      ],
+      "duration_s": 40.0,
+      "hook": "[ACTION] The Mysterious Bearded Man bends his knees and kneels down beside Juliana, extending his scarred hand to retrieve the fallen ledger.",
+      "cliffhanger": "MYSTERIOUS BEARDED MAN (Soft, Reassuring): \"Come.\"",
+      "why_it_works": "stranger's view: A protective, mysterious man comforts a weeping noblewoman over a damaged family heirloom before threatening a man who mocks their social downfall.",
+      "score": 4.29,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.7,
+        "cliff": 2.8,
+        "standalone": 5.8,
+        "intensity": 1.9
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 5.5,
+        "standalone": 7.0,
+        "intensity": 1.9
+      },
+      "learned_scores": {
+        "hook": 7.95,
+        "cliff": 0.09
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who are 'they' that destroyed or dirtied the ledger?",
+          "What is the significance of the ledger to Juliana's mother?",
+          "What is the history between Gerald and the Mysterious Bearded Man that makes Gerald mock him as a 'beggar'?",
+          "What specific event led to Juliana being 'reduced' from a noblewoman?"
+        ],
+        "future_questions": [
+          "Will Gerald back down or provoke the Mysterious Bearded Man further?",
+          "What is the Mysterious Bearded Man's true identity and capability?",
+          "Where is he taking Juliana?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A protective, mysterious man comforts a weeping noblewoman over a damaged family heirloom before threatening a man who mocks their social downfall.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 4.65
+      }
+    },
+    {
+      "rank": 84,
+      "episode": 20,
+      "segments": [
+        {
+          "start": "00:02.90",
+          "end": "00:28.20"
+        }
+      ],
+      "duration_s": 25.3,
+      "hook": "CATHERINE (Smug, Prim): \"Two lumps of sugar, Rupert?\"",
+      "cliffhanger": "CATHERINE (Wary, Inquiring): \"And what of the Dowager? The old woman still breathes.\"",
+      "why_it_works": "best available window; weakest on hook",
+      "score": 4.28,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.6,
+        "cliff": 4.9,
+        "standalone": 5.0,
+        "intensity": 3.6
+      },
+      "rule_scores": {
+        "hook": 4.0,
+        "cliff": 5.5,
+        "standalone": 7.0,
+        "intensity": 3.6
+      },
+      "learned_scores": {
+        "hook": 3.27,
+        "cliff": 4.29
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "unseen: Ashbury",
+          "unseen: Lord",
+          "unseen: Dowager",
+          "unseen: Crown",
+          "back-references"
+        ],
+        "future_questions": [
+          "open question/threat/reveal at end",
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 3.0,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 85,
+      "episode": 35,
+      "segments": [
+        {
+          "start": "01:58.20",
+          "end": "02:30.00"
+        }
+      ],
+      "duration_s": 31.8,
+      "hook": "ALEXANDER (Continuing): \"I survived because the men who came looking for me believed I was already dead.\"",
+      "cliffhanger": "ALEXANDER (Deadly, Chilling): \"The men behind it... are the same men ruling Ashwood now.\"",
+      "why_it_works": "stranger's view: After returning from a presumed death, a man reveals to his mother that his unit was intentionally betrayed by the current leaders of Ashwood.",
+      "score": 4.27,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.6,
+        "cliff": 3.8,
+        "standalone": 5.8,
+        "intensity": 4.6
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 3.3,
+        "standalone": 6.0,
+        "intensity": 4.6
+      },
+      "learned_scores": {
+        "hook": 3.68,
+        "cliff": 4.37
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the 'ambush' and the identity of the 'men' who were supposed to die are never explained.",
+          "The location 'Ashwood' is introduced as a place of power without any context regarding its political or social significance.",
+          "The relationship between Alexander's survival and his mother's lack of knowledge about his status is unclear."
+        ],
+        "future_questions": [
+          "Who exactly are the men ruling Ashwood?",
+          "How does Alexander plan to take revenge on those who ordered the ambush?",
+          "Will Alexander's mother be in danger now that she knows the truth?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "After returning from a presumed death, a man reveals to his mother that his unit was intentionally betrayed by the current leaders of Ashwood.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 86,
+      "episode": 13,
+      "segments": [
+        {
+          "start": "00:24.20",
+          "end": "00:58.60"
+        }
+      ],
+      "duration_s": 34.4,
+      "hook": "ALEXANDER (Desperate, Fierce): \"I would rather face the gallows than watch you hurt yourself for me.\"",
+      "cliffhanger": "CLARISSA (O.S., Gleeful, Derisive): \"Look at her hands.\"",
+      "why_it_works": "best available window; weakest on cliff",
+      "score": 4.25,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.0,
+        "cliff": 3.9,
+        "standalone": 4.5,
+        "intensity": 2.9
+      },
+      "rule_scores": {
+        "hook": 3.6,
+        "cliff": 1.6,
+        "standalone": 6.0,
+        "intensity": 2.9
+      },
+      "learned_scores": {
+        "hook": 6.36,
+        "cliff": 6.25
+      },
+      "curiosity_gap": {
+        "past_confusions": [],
+        "future_questions": [],
+        "summary": "",
+        "source": "proxy",
+        "gap": 3.0,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 87,
+      "episode": 23,
+      "segments": [
+        {
+          "start": "01:02.00",
+          "end": "01:37.00"
+        }
+      ],
+      "duration_s": 35.0,
+      "hook": "LADY JULIANA (Shocked, Deliberate): \"Weakness. Dry mouth. The discoloration beneath the nails. The slow wasting.\"",
+      "cliffhanger": "PRUDENCE (Desperate, Begging): \"Can you save her?\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Lady Juliana identifies the symptoms of arsenic poisoning in an unseen Duchess, prompting a panicked reaction from her companion, Prudence.",
+      "score": 4.05,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.7,
+        "cliff": 2.3,
+        "standalone": 6.3,
+        "intensity": 5.4
+      },
+      "rule_scores": {
+        "hook": 2.8,
+        "cliff": 3.1,
+        "standalone": 5.5,
+        "intensity": 5.4
+      },
+      "learned_scores": {
+        "hook": 4.52,
+        "cliff": 1.57
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of the 'her' being poisoned is never established.",
+          "The relationship between Lady Juliana, Prudence, and the Duchess is unclear.",
+          "The location and the reason for the Duchess's presence are unknown."
+        ],
+        "future_questions": [
+          "Will the Duchess survive the coughing fit?",
+          "Who is the person responsible for the poisoning?",
+          "What is Lady Juliana's plan to stop the poisoning?",
+          "How will Prudence react to the news of the murder attempt?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 9,
+        "summary": "A woman named Lady Juliana identifies the symptoms of arsenic poisoning in an unseen Duchess, prompting a panicked reaction from her companion, Prudence.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 7.17
+      }
+    },
+    {
+      "rank": 88,
+      "episode": 37,
+      "segments": [
+        {
+          "start": "01:57.20",
+          "end": "02:28.00"
+        }
+      ],
+      "duration_s": 30.8,
+      "hook": "NOBLEMAN (Quietly Skeptical): \"Do you think she'll actually be executed?\"",
+      "cliffhanger": "[ACTION] Clarissa takes a slow sip of the red wine, her eyes gleaming with dark relish.",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A cold aristocrat named Lady Clarissa discusses the impending public execution of an unnamed woman with a nobleman, expressing satisfaction that the woman is being punished for defying social expectations.",
+      "score": 4.04,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.7,
+        "cliff": 4.1,
+        "standalone": 6.6,
+        "intensity": 1.5
+      },
+      "rule_scores": {
+        "hook": 3.0,
+        "cliff": 1.6,
+        "standalone": 6.5,
+        "intensity": 1.5
+      },
+      "learned_scores": {
+        "hook": 4.36,
+        "cliff": 6.52
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of the woman facing execution is never revealed, making it unclear who the characters are discussing.",
+          "The specific nature of the 'accusations' and the 'mistake' she made are referenced as known facts, but remain completely opaque to the viewer.",
+          "The relationship between the nobleman, Lady Clarissa, and the condemned woman is undefined, leaving the motivation for their conversation ambiguous."
+        ],
+        "future_questions": [
+          "Who is the woman being executed?",
+          "What specific crime did she commit that warrants such a public execution?",
+          "Will the nobleman intervene, or is he complicit in the execution?",
+          "What is Lady Clarissa's personal connection to the woman that fuels such intense hatred?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 7,
+        "summary": "A cold aristocrat named Lady Clarissa discusses the impending public execution of an unnamed woman with a nobleman, expressing satisfaction that the woman is being punished for defying social expectations.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.67
+      }
+    },
+    {
+      "rank": 89,
+      "episode": 19,
+      "segments": [
+        {
+          "start": "00:38.00",
+          "end": "01:04.80"
+        }
+      ],
+      "duration_s": 26.8,
+      "hook": "[ACTION] Juliana turns her back on the ruins. Wide tracking shot from behind as Alexander and Juliana walk side by side down the stone path, leaving the smoldering ash behind as the scene fades into black.",
+      "cliffhanger": "INFORMANT (Earnest): \"And Lady Catherine, she behaves as though she is already the future duchess.\"",
+      "why_it_works": "stranger's view: After leaving a scene of destruction, a man named Alexander is informed by a subordinate that his political rivals have usurped his estate and title during his long absence.",
+      "score": 4.02,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.5,
+        "cliff": 3.0,
+        "standalone": 5.0,
+        "intensity": 1.2
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 2.0,
+        "standalone": 6.0,
+        "intensity": 1.2
+      },
+      "learned_scores": {
+        "hook": 9.09,
+        "cliff": 4.08
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of Alexander's 'disappearance' and why he was away.",
+          "The relationship between Alexander and Juliana, and why they are walking away from smoldering ruins.",
+          "The specific identity of Lord Sterling, Rupert, and Lady Catherine in relation to Alexander's family lineage.",
+          "Why Alexander is referred to as 'Your Grace' and what his specific title or claim to the estate is."
+        ],
+        "future_questions": [
+          "Will Alexander confront Lord Sterling and reclaim his estate?",
+          "How will Alexander react to the news about Lady Catherine?",
+          "What is the significance of the ruins Juliana and Alexander just left behind?"
+        ],
+        "standalone_clarity": 4,
+        "cliffhanger_pull": 7,
+        "summary": "After leaving a scene of destruction, a man named Alexander is informed by a subordinate that his political rivals have usurped his estate and title during his long absence.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 3.9
+      }
+    },
+    {
+      "rank": 90,
+      "episode": 49,
+      "segments": [
+        {
+          "start": "00:01.80",
+          "end": "00:27.20"
+        }
+      ],
+      "duration_s": 25.4,
+      "hook": "[ACTION] Father Thomas, clad in a hooded dark mantle over priestly black robes, secures the door behind him and steps into the shadows of the abandoned corridor.",
+      "cliffhanger": "FATHER THOMAS (Grave): \"No shadows tonight, Catherine. Just us and an empty wing.\"",
+      "why_it_works": "stranger's view: A priest meets a woman in a dark, abandoned corridor to discuss the success of a secret infiltration involving a paid accomplice.",
+      "score": 3.93,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.4,
+        "cliff": 2.9,
+        "standalone": 5.1,
+        "intensity": 1.0
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 0.0,
+        "standalone": 5.0,
+        "intensity": 1.0
+      },
+      "learned_scores": {
+        "hook": 8.81,
+        "cliff": 5.84
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the relationship between Father Thomas and Catherine is unclear, specifically why a priest is taking orders from her.",
+          "The identity of Agnes and her role as a paid employee is unexplained.",
+          "The significance of the 'empty wing' and why they are meeting in secret is not established."
+        ],
+        "future_questions": [
+          "What is the specific purpose of their secret meeting in the empty wing?",
+          "Why is a priest involved in what appears to be a clandestine or illicit arrangement with Catherine?",
+          "What is the 'shadow' they are trying to avoid?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 7,
+        "summary": "A priest meets a woman in a dark, abandoned corridor to discuss the success of a secret infiltration involving a paid accomplice.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.17
+      }
+    },
+    {
+      "rank": 91,
+      "episode": 10,
+      "segments": [
+        {
+          "start": "01:06.50",
+          "end": "01:34.00"
+        }
+      ],
+      "duration_s": 27.5,
+      "hook": "ALEXANDER (Intense, Sincere): \"Because you are looking at me.\"",
+      "cliffhanger": "ALEXANDER (Deep, Emotional): \"Your touch is the only medicine that has ever eased my pain.\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A man named Alexander expresses intense vulnerability and relief while a woman named Juliana tends to him with a touch that seems to alleviate his suffering.",
+      "score": 3.9,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.6,
+        "cliff": 2.5,
+        "standalone": 6.5,
+        "intensity": 1.7
+      },
+      "rule_scores": {
+        "hook": 3.5,
+        "cliff": 4.0,
+        "standalone": 6.5,
+        "intensity": 1.7
+      },
+      "learned_scores": {
+        "hook": 5.66,
+        "cliff": 1.03
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of Alexander's 'pain' is undefined, making it unclear if this is physical, emotional, or supernatural.",
+          "The relationship between Alexander and Juliana is ambiguous; it is unclear if they are lovers, patient and healer, or captor and captive."
+        ],
+        "future_questions": [
+          "What is the source of Alexander's pain?",
+          "What is Juliana doing to him with her hands?",
+          "Will their intimate moment be interrupted?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 7,
+        "summary": "A man named Alexander expresses intense vulnerability and relief while a woman named Juliana tends to him with a touch that seems to alleviate his suffering.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.45
+      }
+    },
+    {
+      "rank": 92,
+      "episode": 10,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:57.60"
+        }
+      ],
+      "duration_s": 57.6,
+      "hook": "[ACTION] Juliana quietly studies the botanical illustrations by firelight, a bundle of fresh dried herbs resting on the table.",
+      "cliffhanger": "JULIANA (Playful, Whispering): \"You are a terrible liar.\"",
+      "why_it_works": "stranger's view: A woman named Juliana discovers that a man named Alexander has returned home hiding severe, mysterious injuries that he attempts to downplay.",
+      "score": 3.87,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.4,
+        "cliff": 2.3,
+        "standalone": 7.2,
+        "intensity": 1.7
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.5,
+        "standalone": 8.5,
+        "intensity": 1.7
+      },
+      "learned_scores": {
+        "hook": 8.8,
+        "cliff": 0.06
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the relationship between Juliana and Alexander is unclear; it is ambiguous whether they are spouses, siblings, or something else.",
+          "The source of Alexander's severe injuries is unknown, leaving the viewer to wonder if he was in a fight, an accident, or something more sinister.",
+          "The context of Alexander's 'scars' is missing, as Juliana implies they are old and significant, but their origin is never explained."
+        ],
+        "future_questions": [
+          "What actually caused the severe wounds on Alexander's body?",
+          "What is the nature of the conflict or danger that Alexander is trying to hide?",
+          "Will Juliana be able to treat his injuries, or is he in immediate danger of dying?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 8,
+        "summary": "A woman named Juliana discovers that a man named Alexander has returned home hiding severe, mysterious injuries that he attempts to downplay.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.92
+      }
+    },
+    {
+      "rank": 93,
+      "episode": 43,
+      "segments": [
+        {
+          "start": "00:51.00",
+          "end": "01:19.40"
+        }
+      ],
+      "duration_s": 28.4,
+      "hook": "CROWN OFFICIAL (Voice Continuing): \"Information regarding the Duke's position was transmitted through British channels.\"",
+      "cliffhanger": "ALEXANDER (Venomous): \"You took my title.\"",
+      "why_it_works": "stranger's view: A man named Alexander dramatically reveals he is alive and confronts a group of nobles, accusing them of treason and stealing his title.",
+      "score": 3.85,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.9,
+        "cliff": 3.0,
+        "standalone": 4.8,
+        "intensity": 4.2
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 2.6,
+        "standalone": 5.0,
+        "intensity": 4.2
+      },
+      "learned_scores": {
+        "hook": 5.82,
+        "cliff": 3.37
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The identity of the 'Duke' and his relationship to the people in the room is unclear.",
+          "The nature of the 'British channels' and why this information is considered a betrayal is not explained.",
+          "The history behind Alexander's supposed death and how he returned is missing.",
+          "The specific power dynamic or legal authority Alexander holds over the people he is accusing."
+        ],
+        "future_questions": [
+          "What will Alexander do to punish the men he has just exposed?",
+          "How will the accused men attempt to defend themselves against these accusations?",
+          "What is the immediate consequence of Alexander revealing he is alive and reclaiming his title?"
+        ],
+        "standalone_clarity": 5,
+        "cliffhanger_pull": 9,
+        "summary": "A man named Alexander dramatically reveals he is alive and confronts a group of nobles, accusing them of treason and stealing his title.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 4.65
+      }
+    },
+    {
+      "rank": 94,
+      "episode": 38,
+      "segments": [
+        {
+          "start": "01:00.80",
+          "end": "01:27.00"
+        }
+      ],
+      "duration_s": 26.2,
+      "hook": "JULIANA (Defiant, Unshakable): \"I will not give them my husband.\"",
+      "cliffhanger": "JULIANA (Hopeful, Tender): \"Alexander...\"",
+      "why_it_works": "best available window; weakest on cliff",
+      "score": 3.67,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.5,
+        "cliff": 3.5,
+        "standalone": 5.2,
+        "intensity": 2.2
+      },
+      "rule_scores": {
+        "hook": 5.8,
+        "cliff": 6.5,
+        "standalone": 5.0,
+        "intensity": 2.2
+      },
+      "learned_scores": {
+        "hook": 1.3,
+        "cliff": 0.46
+      },
+      "curiosity_gap": {
+        "past_confusions": [],
+        "future_questions": [
+          "open question/threat/reveal at end"
+        ],
+        "summary": "",
+        "source": "proxy",
+        "gap": 5.5,
+        "note": "LLM failed, used proxy: LLM call failed: 429 b'{\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You ex"
+      }
+    },
+    {
+      "rank": 95,
+      "episode": 50,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:30.20"
+        }
+      ],
+      "duration_s": 30.2,
+      "hook": "[ACTION] Father Thomas lies flat on his back, breathless, while Catherine rests beside him, her fingers tracing across his bare skin.",
+      "cliffhanger": "CATHERINE (Scoffing, Incredulous): \"That's not absolution, Thomas. That's a fortune.\"",
+      "why_it_works": "stranger's view: A priest and a woman negotiate a high-stakes political deal involving tax revenue while lying together in bed.",
+      "score": 3.58,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 4.7,
+        "cliff": 1.4,
+        "standalone": 6.1,
+        "intensity": 2.1
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 2.0,
+        "standalone": 6.5,
+        "intensity": 2.1
+      },
+      "learned_scores": {
+        "hook": 7.35,
+        "cliff": 0.78
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the existing relationship between the priest and Catherine is unclear, specifically whether this is a long-term affair or a first-time encounter.",
+          "The significance of the 'west territory' and why a priest has the authority or interest to demand control over its tax collection is unexplained.",
+          "The reference to 'absolution' implies a prior moral or spiritual conflict between the two that is not established."
+        ],
+        "future_questions": [
+          "Will Catherine agree to hand over the tax collection rights to the priest?",
+          "What is the priest's ultimate goal for wanting such a large fortune?",
+          "How will their illicit relationship affect their respective positions of power?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A priest and a woman negotiate a high-stakes political deal involving tax revenue while lying together in bed.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 96,
+      "episode": 8,
+      "segments": [
+        {
+          "start": "00:00.00",
+          "end": "00:42.00"
+        }
+      ],
+      "duration_s": 42.0,
+      "hook": "[ACTION] Juliana delicately runs her fingertips across the embossed leather cover of the worn botanical volume, noticing its weathered state.",
+      "cliffhanger": "JULIANA (Playful, Amused): \"You prefer looking like a forest hermit?\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A woman named Juliana and a soldier named Alexander share a quiet, intimate moment over a botanical book while discussing the medicinal properties of yarrow and Alexander's mysterious refusal to groom himself.",
+      "score": 3.44,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.7,
+        "cliff": 2.2,
+        "standalone": 7.5,
+        "intensity": 0.0
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.0,
+        "standalone": 8.5,
+        "intensity": 0.0
+      },
+      "learned_scores": {
+        "hook": 5.4,
+        "cliff": 0.32
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The relationship between Juliana and Alexander is undefined; it is unclear if they are strangers, allies, or captives.",
+          "The significance of Alexander's refusal to trim his hair or beard is unexplained, leaving the viewer to wonder if it is a vow, a disguise, or a sign of trauma."
+        ],
+        "future_questions": [
+          "Why does Alexander refuse to groom himself?",
+          "What is the nature of the conflict or war that Alexander is a soldier for?",
+          "What is the significance of the botanical book Juliana's mother wrote?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 6,
+        "summary": "A woman named Juliana and a soldier named Alexander share a quiet, intimate moment over a botanical book while discussing the medicinal properties of yarrow and Alexander's mysterious refusal to groom himself.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.45
+      }
+    },
+    {
+      "rank": 97,
+      "episode": 40,
+      "segments": [
+        {
+          "start": "00:10.00",
+          "end": "00:55.80"
+        }
+      ],
+      "duration_s": 45.8,
+      "hook": "[ACTION] Lady Harrington takes his hand and steps onto the pavement, clutching a velvet reticule.",
+      "cliffhanger": "[ACTION] Rupert smooths the lapels of his coat, checking his posture as he waits for the bride.",
+      "why_it_works": "stranger's view: A cold and ambitious noble couple arrives at a cathedral for a wedding, openly discussing their sinister plans to ensure a woman named Juliana suffers a terrible fate.",
+      "score": 3.41,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.8,
+        "cliff": 2.8,
+        "standalone": 4.8,
+        "intensity": 1.7
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 1.0,
+        "standalone": 4.0,
+        "intensity": 1.7
+      },
+      "learned_scores": {
+        "hook": 5.67,
+        "cliff": 4.62
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "Who is Juliana and why do the Harringtons harbor such intense, malicious resentment toward her?",
+          "What specific 'unlucky' history does Juliana have with this cathedral?",
+          "What is the nature of the threat implied by the statement that Juliana 'won't be seeing anything for long'?"
+        ],
+        "future_questions": [
+          "What is the Harringtons' plan to harm or ruin Juliana during or after the wedding?",
+          "Who is the bride, and how does she relate to the Harringtons' scheme?",
+          "What is the significance of the 'everything that comes after' the wedding?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 8,
+        "summary": "A cold and ambitious noble couple arrives at a cathedral for a wedding, openly discussing their sinister plans to ensure a woman named Juliana suffers a terrible fate.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.67
+      }
+    },
+    {
+      "rank": 98,
+      "episode": 41,
+      "segments": [
+        {
+          "start": "00:17.50",
+          "end": "00:52.40"
+        }
+      ],
+      "duration_s": 34.9,
+      "hook": "[ACTION] Juliana, dressed in a coarse drab prison dress with a numbered identification badge, is marched forward by two armed constables holding her by the arms.",
+      "cliffhanger": "CATHERINE (Spiteful, Boastful): \"And now they can all see what you truly are.\"",
+      "why_it_works": "stranger's view: A disgraced woman named Juliana is paraded in prison garb before a group of mocking nobles who taunt her about her fall from grace.",
+      "score": 3.26,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 5.4,
+        "cliff": 1.1,
+        "standalone": 5.2,
+        "intensity": 0.0
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 0.0,
+        "standalone": 5.0,
+        "intensity": 0.0
+      },
+      "learned_scores": {
+        "hook": 8.77,
+        "cliff": 2.24
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The significance of Juliana's past relationship to the chapel or the nobility is unclear.",
+          "It is not explained why Juliana was previously expected to be a 'bride' or what led to her current imprisonment.",
+          "The specific nature of the 'truth' about Juliana that Catherine is exposing remains undefined."
+        ],
+        "future_questions": [
+          "What crime is Juliana being accused of?",
+          "What is the 'true' nature of Juliana that Catherine is trying to reveal?",
+          "Will Juliana be allowed to speak or defend herself against these taunts?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 7,
+        "summary": "A disgraced woman named Juliana is paraded in prison garb before a group of mocking nobles who taunt her about her fall from grace.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 5.42
+      }
+    },
+    {
+      "rank": 99,
+      "episode": 48,
+      "segments": [
+        {
+          "start": "00:47.00",
+          "end": "01:20.00"
+        }
+      ],
+      "duration_s": 33.0,
+      "hook": "CATHERINE (Confident, Devious): \"I'm not leaving the county, Agnes. I'm going back into that house.\"",
+      "cliffhanger": "CATHERINE (Firm, Final): \"And make sure no one sees him arrive.\"",
+      "why_it_works": "high curiosity gap (clear alone, wants a next step); stranger's view: A manipulative woman named Catherine bribes her associate Agnes to secretly bring a priest to her house to further a mysterious, high-stakes scheme before an upcoming hearing.",
+      "score": 3.07,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 3.1,
+        "cliff": 2.5,
+        "standalone": 5.6,
+        "intensity": 0.7
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.0,
+        "standalone": 4.5,
+        "intensity": 0.7
+      },
+      "learned_scores": {
+        "hook": 4.23,
+        "cliff": 1.03
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The nature of the 'hearing' and why it is significant to Catherine.",
+          "The specific relationship between Catherine and Father Thomas, and why he is performing tasks for her.",
+          "The reason Catherine is currently barred from or leaving the house she intends to return to."
+        ],
+        "future_questions": [
+          "What is the nature of the 'hearing' and what is Catherine trying to achieve?",
+          "What exactly did Father Thomas do today, and what does he still need to do?",
+          "Will Agnes successfully smuggle the priest into the house without being detected?",
+          "What is the ultimate goal of Catherine's scheme?"
+        ],
+        "standalone_clarity": 6,
+        "cliffhanger_pull": 7,
+        "summary": "A manipulative woman named Catherine bribes her associate Agnes to secretly bring a priest to her house to further a mysterious, high-stakes scheme before an upcoming hearing.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 6.67
+      }
+    },
+    {
+      "rank": 100,
+      "episode": 8,
+      "segments": [
+        {
+          "start": "00:50.10",
+          "end": "01:18.00"
+        }
+      ],
+      "duration_s": 27.9,
+      "hook": "ALEXANDER (Low, Amused): \"We'll see.\"",
+      "cliffhanger": "[ACTION] Juliana maintains her warm, peaceful gaze across the table as soft firelight flickers over her face into fade out.",
+      "why_it_works": "stranger's view: A woman named Juliana shares a quiet, intimate moment with a man named Alexander as they discuss herbal remedies and the lingering trauma of his past.",
+      "score": 2.56,
+      "tournament_wins": 0.0,
+      "sub_scores": {
+        "hook": 1.7,
+        "cliff": 2.1,
+        "standalone": 6.0,
+        "intensity": 0.8
+      },
+      "rule_scores": {
+        "hook": 2.0,
+        "cliff": 4.0,
+        "standalone": 7.0,
+        "intensity": 0.8
+      },
+      "learned_scores": {
+        "hook": 1.4,
+        "cliff": 0.29
+      },
+      "curiosity_gap": {
+        "past_confusions": [
+          "The origin and nature of Alexander's scars are referenced as if they are a known topic, but the viewer has no context for his history.",
+          "The specific 'war' mentioned is not identified, leaving the setting and time period ambiguous.",
+          "Juliana's reference to 'losing wealth' implies a specific backstory regarding her social status or a recent life-changing event that is not explained."
+        ],
+        "future_questions": [
+          "What specific war did Alexander fight in?",
+          "What caused Juliana to lose her wealth, and how did she end up in this situation?",
+          "Is there a romantic connection developing between these two characters?"
+        ],
+        "standalone_clarity": 7,
+        "cliffhanger_pull": 4,
+        "summary": "A woman named Juliana shares a quiet, intimate moment with a man named Alexander as they discuss herbal remedies and the lingering trauma of his past.",
+        "source": "gemini-3.1-flash-lite",
+        "gap": 4.92
+      }
+    }
+  ]
+}
