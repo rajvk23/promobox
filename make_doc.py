@@ -20,36 +20,36 @@ class Doc(FPDF):
                   align="C", new_x=XPos.RIGHT, new_y=YPos.TOP)
 
     def section(self, title):
-        self.ln(1.5)
-        self.set_font("Helvetica", "B", 11.2)
+        self.ln(1.1)
+        self.set_font("Helvetica", "B", 11.0)
         self.set_text_color(18, 38, 78)
-        self.cell(0, 5.6, clean(title), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.cell(0, 5.3, clean(title), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         self.set_draw_color(185, 198, 218)
         self.set_line_width(0.35)
         self.line(self.l_margin, self.get_y(), self.w - self.r_margin, self.get_y())
-        self.ln(1.4)
+        self.ln(1.1)
 
     def para(self, text):
         self.set_x(self.l_margin)
-        self.set_font("Helvetica", "", 9.4)
+        self.set_font("Helvetica", "", 9.25)
         self.set_text_color(28, 28, 28)
-        self.multi_cell(0, 4.45, clean(text), markdown=True, align="L",
+        self.multi_cell(0, 4.28, clean(text), markdown=True, align="L",
                         new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-        self.ln(1.0)
+        self.ln(0.85)
 
     def item(self, label, text):
         self.set_x(self.l_margin + 3.0)
-        self.set_font("Helvetica", "", 9.3)
+        self.set_font("Helvetica", "", 9.15)
         self.set_text_color(28, 28, 28)
         w = self.w - self.r_margin - self.l_margin - 3.0
-        self.multi_cell(w, 4.4, clean(f"- **{label}** {text}"), markdown=True, align="L",
+        self.multi_cell(w, 4.22, clean(f"- **{label}** {text}"), markdown=True, align="L",
                         new_x=XPos.LMARGIN, new_y=YPos.NEXT)
-        self.ln(0.95)
+        self.ln(0.8)
 
 
 pdf = Doc(orientation="P", unit="mm", format="A4")
-pdf.set_margins(14, 12, 14)
-pdf.set_auto_page_break(auto=True, margin=12)
+pdf.set_margins(13, 11, 13)
+pdf.set_auto_page_break(auto=True, margin=11)
 
 # ================================== PAGE 1 ==================================
 pdf.add_page()
