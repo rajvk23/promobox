@@ -1,5 +1,8 @@
-"""Generate the 2-page Solution Doc PDF (solution_doc.pdf) using fpdf."""
+"""Generate a clean, well-formatted 2-page Solution Doc PDF (solution_doc.pdf).
+Uses fpdf2 markdown=True inside full-width multi_cell so wrapped lines NEVER indent into the middle of the page.
+"""
 from fpdf import FPDF
+from fpdf.enums import XPos, YPos
 
 
 def clean(t):
@@ -9,96 +12,238 @@ def clean(t):
 
 
 class Doc(FPDF):
-    def header(self):
-        pass
-
     def footer(self):
-        self.set_y(-10)
-        self.set_font("Helvetica", "I", 7.5)
-        self.set_text_color(110, 110, 110)
-        self.cell(0, 5, clean(f"Kuku AI Generalist Assignment - Problem 1: Find the Promos   |   Page {self.page_no()} of 2"), 0, 0, "C")
+        self.set_y(-11)
+        self.set_font("Helvetica", "", 8.5)
+        self.set_text_color(120, 120, 120)
+        self.cell(0, 5, clean(f"Kuku AI Generalist Assignment (Problem 1)  |  Page {self.page_no()} of 2"),
+                  align="C", new_x=XPos.RIGHT, new_y=YPos.TOP)
 
-    def h1(self, text):
-        self.set_font("Helvetica", "B", 10.5)
-        self.set_text_color(20, 45, 95)
-        self.cell(0, 5.5, clean(text), ln=1)
-        self.set_draw_color(200, 210, 225)
+    def section(self, title):
+        self.ln(1.5)
+        self.set_font("Helvetica", "B", 11.2)
+        self.set_text_color(18, 38, 78)
+        self.cell(0, 5.6, clean(title), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.set_draw_color(185, 198, 218)
+        self.set_line_width(0.35)
         self.line(self.l_margin, self.get_y(), self.w - self.r_margin, self.get_y())
-        self.ln(1.2)
+        self.ln(1.4)
 
-    def p(self, text, bold_prefix=""):
-        self.set_font("Helvetica", "", 8.4)
-        self.set_text_color(25, 25, 25)
-        if bold_prefix:
-            self.set_font("Helvetica", "B", 8.4)
-            self.write(4.0, clean(bold_prefix + " "))
-            self.set_font("Helvetica", "", 8.4)
-        self.multi_cell(0, 4.0, clean(text))
-        self.ln(0.8)
+    def para(self, text):
+        self.set_x(self.l_margin)
+        self.set_font("Helvetica", "", 9.4)
+        self.set_text_color(28, 28, 28)
+        self.multi_cell(0, 4.45, clean(text), markdown=True, align="L",
+                        new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.ln(1.0)
 
-    def bullet(self, bold_prefix, text):
-        self.set_x(self.l_margin + 2)
-        self.set_font("Helvetica", "B", 8.3)
-        self.set_text_color(25, 25, 25)
-        self.write(3.9, clean("- " + bold_prefix + " "))
-        self.set_font("Helvetica", "", 8.3)
-        self.multi_cell(self.w - self.r_margin - self.l_margin - 2, 3.9, clean(text))
-        self.ln(0.5)
+    def item(self, label, text):
+        self.set_x(self.l_margin + 3.0)
+        self.set_font("Helvetica", "", 9.3)
+        self.set_text_color(28, 28, 28)
+        w = self.w - self.r_margin - self.l_margin - 3.0
+        self.multi_cell(w, 4.4, clean(f"- **{label}** {text}"), markdown=True, align="L",
+                        new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        self.ln(0.95)
 
 
 pdf = Doc(orientation="P", unit="mm", format="A4")
-pdf.set_margins(12, 10, 12)
-pdf.set_auto_page_break(auto=True, margin=11)
+pdf.set_margins(14, 12, 14)
+pdf.set_auto_page_break(auto=True, margin=12)
 
-# ============================== PAGE 1 ==============================
+# ================================== PAGE 1 ==================================
 pdf.add_page()
-pdf.set_font("Helvetica", "B", 13.5)
-pdf.set_text_color(15, 30, 70)
-pdf.cell(0, 6.5, clean("Kuku AI Generalist Assignment - Problem 1: Find the Promos"), ln=1)
-pdf.set_font("Helvetica", "", 8.2)
-pdf.set_text_color(80, 80, 80)
-pdf.cell(0, 4.5, clean("Live App: https://promobox-p5ztlogtutmnxgvxcky2ea.streamlit.app/  |  Repo: https://github.com/rajvk23/promobox  |  Outputs: /tree/main/outputs"), ln=1)
+
+# Title Block
+pdf.set_font("Helvetica", "B", 15.5)
+pdf.set_text_color(15, 28, 65)
+pdf.cell(0, 7.5, clean("Problem 1: Finding Microdrama Promos"), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+
+pdf.set_font("Helvetica", "", 9.2)
+pdf.set_text_color(70, 80, 95)
+pdf.cell(0, 5.0, clean("Show: I Married a Broken Soldier. He was a Duke (50 episodes)"), new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+pdf.cell(0, 4.8, clean("Live App: https://promobox-p5ztlogtutmnxgvxcky2ea.streamlit.app/   |   Code & Outputs: https://github.com/rajvk23/promobox"),
+         new_x=XPos.LMARGIN, new_y=YPos.NEXT)
 pdf.ln(1.5)
 
-pdf.h1("1. Problem Choice, Framing & Explicit Assumptions")
-pdf.p("Why Problem 1: Reviewing 50 episodes by hand to find 20-60s ad hooks is a high-volume editorial bottleneck that repeats every week across languages. Because Kuku's screenplays already carry precise timestamps, speaker tags, emotions, and camera/sound cues, we can solve candidate discovery in deterministic code and reserve AI strictly for semantic judgment.")
-pdf.bullet("Single continuous windows (20-60s):", "While promos can stitch multiple segments, continuous scenes preserve dramatic pacing without jarring jump-cuts. We scope v1 to continuous windows aligned strictly to dialogue/action boundaries (never cutting a spoken line in half), with 25-50s treated as the short-form sweet spot.")
-pdf.bullet("Up to 2 non-overlapping candidates per episode:", "Gives editors 100 total candidates across the 50-episode pack, ranked globally so the acquisition team knows exactly which 5-10 clips to test first.")
-pdf.bullet("Zero-dependency fallback:", "If an API key is missing or rate-limited during a live run, every stage degrades gracefully to an offline model/heuristic so the tool never crashes on fresh inputs.")
+# Section 1
+pdf.section("1. Why I Picked Problem 1 & My Assumptions")
+pdf.para(
+    "Watching 50 episodes by hand every week just to find 20-60 second promo clips is slow, repetitive work. "
+    "When I opened the input pack, I noticed the screenplays already have exact timestamps (`Start` and `End`) for every "
+    "line of dialogue, stage action, camera shot, and sound cue, plus emotion tags in parentheses. That meant I did not "
+    "need an AI to guess timestamps. I could use plain Python code to slice clean candidate clips and save AI for the "
+    "part rules cannot easily do: judging whether a clip actually hooks a stranger and leaves them hanging."
+)
+pdf.para("Where the brief left things open, I made four practical assumptions:")
+pdf.item(
+    "One continuous window per promo (20-60s):",
+    "The brief allows multi-segment mashups, but jumping across scenes without video editing or music feels jarring. "
+    "I scoped my tool to single continuous stretches (with 25-50s treated as the sweet spot for Reels/TikTok/Shorts)."
+)
+pdf.item(
+    "Never cut a spoken line in half:",
+    "Every candidate window must start at the exact beginning of a dialogue or action event and end at the completion "
+    "of an event. This guarantees every timestamp we hand an editor is a clean cut point."
+)
+pdf.item(
+    "Keep up to 2 non-overlapping clips per episode:",
+    "Across 50 episodes this yields 100 promos total, ranked globally so the team knows which 5-10 clips to post first."
+)
+pdf.item(
+    "Always work offline if no API key is set:",
+    "So the tool never breaks during a live demo or rate limit, every LLM step has a fast offline fallback."
+)
 
-pdf.h1("2. Architecture: Code vs. Self-Supervised ML vs. LLM vs. Human")
-pdf.p("Rather than dumping entire screenplays into an LLM (which hallucinates timestamps and scales poorly), we use a 4-stage funnel where cheap stages filter 16,600+ windows down to 12 finalists:")
-pdf.bullet("Stage 1 - Deterministic Parser & Window Proposer (Code, promo_finder.py):", "Parses character dialogue, parenthetical emotions, ACTION, CAMERA, and SOUND FX across all 50 episodes (~16,600 valid 20-60s windows). Guarantees exact timestamps and zero split lines.")
-pdf.bullet("Stage 2a - Structural & Lexicon Rules (Code):", "Scores every window on Hook (first 3s: slaps, accusations, exclamations, intense emotion tags, penalising weak back-channel openers like 'Yes/And'), Cliffhanger (last 6s: episode-end stings, unanswered questions, threats, penalising resolved lines), Standalone clarity (scene-start bonus, cast-size cap, early-episode bonus), and Intensity.")
-pdf.bullet("Stage 2b - Novelty 1: Self-Supervised Hook/Cliffhanger Classifier (ML, learn.py):", "Every episode opening (first 3s) is a writer-chosen hook and every episode ending (last 6s) is a writer-chosen cliffhanger. This gives 50 free positive examples per class with zero manual labelling. We train a scikit-learn Logistic Regression classifier on 14 show-agnostic structural features (blended 50/50 with rules). In 5-fold leave-episode-out cross-validation, it achieves 0.789 AUC on hooks and 0.826 AUC on cliffhangers.")
-pdf.bullet("Stage 3 - Novelty 2: Cold-Viewer Simulator & Curiosity-Gap Score (LLM, judge.py):", "Rules are worst at judging 'makes sense on its own.' For only the top 4 windows per episode (200 total), an LLM (gemini-3.1-flash-lite, swappable via LLM_MODEL / LLM_BASE_URL) reads the clip as a stranger who has never seen the show, listing plot-breaking past_confusions vs. urgent future_questions and rating standalone clarity & cliffhanger pull.")
-pdf.bullet("Stage 4 - Novelty 3: Position-Debiased Pairwise Tournament (LLM, rank.py):", "Absolute 0-10 LLM scores are uncalibrated across episodes. The top 12 finalists enter a round-robin tournament (66 pairs x 2 orders = 132 calls). Clip A beats Clip B only if the LLM picks A when shown (A, B) AND when shown (B, A); order-sensitive flips become 0.5 draws. Human editors make the final cut.")
+# Section 2
+pdf.section("2. How It Works (What is Code vs. ML vs. LLM)")
+pdf.para(
+    "Dumping 50 full screenplays straight into an LLM is expensive, slow, and prone to made-up timestamps. "
+    "Instead, I built a 4-stage funnel (`run.py`) that narrows **16,600+ valid windows** down to the best picks:"
+)
+pdf.item(
+    "Stage 1 - Parser & Window Proposer (Plain Code, promo_finder.py):",
+    "Reads each episode, repairs UTF-8 encoding glitches, extracts dialogue/emotion/action/sound blocks, and proposes "
+    "every valid 20-60s window (~150 to 650 per episode). Runs across all 50 episodes in under 1 second."
+)
+pdf.item(
+    "Stage 2a - Rule Scorer (Plain Code, promo_finder.py):",
+    "Scores every window on four signals: **Hook** (first 3s: physical actions like slaps/strikes, exclamations, high-intensity "
+    "emotions, while penalising weak openers like 'Yes' or 'And'), **Cliffhanger** (last 6s: episode-end stings, questions, "
+    "threats, while penalising resolved lines like 'Thank you'), **Standalone** (bonus for starting at a scene boundary, "
+    "fewer than 4 speakers, and earlier episodes that need less backstory), and **Intensity**."
+)
+pdf.item(
+    "Stage 2b - Self-Supervised Hook & Cliffhanger Model (ML, learn.py):",
+    "I realized the 50 episodes already contain free training labels written by professional writers: the first 3s of each "
+    "episode is a real hook, and the last 6s is a real cliffhanger. I trained a lightweight `scikit-learn` Logistic Regression "
+    "classifier on 14 show-agnostic structural features (punctuation, emotion intensity, dialogue density) to tell episode edges "
+    "apart from random mid-episode moments, and blended its probability 50/50 with the rule scores. In 5-fold leave-episode-out "
+    "cross-validation (`models/cv_report.json`), it reaches **0.789 AUC** on hooks and **0.826 AUC** on cliffhangers."
+)
+pdf.item(
+    "Stage 3 - Cold-Viewer Curiosity-Gap Check (LLM, judge.py):",
+    "Rules are bad at telling whether a clip makes sense to someone who has never seen the show. For the top 4 windows per "
+    "episode (200 total), I pass *only* the clip transcript to Gemini (`gemini-3.1-flash-lite`, swappable via `LLM_MODEL` and "
+    "`LLM_BASE_URL`) and ask it to act as a first-time viewer: list any plot-breaking `past_confusions`, list urgent "
+    "`future_questions`, and rate standalone clarity and cliffhanger pull from 0 to 10."
+)
+pdf.item(
+    "Stage 4 - Pairwise Tournament Ranking (LLM, rank.py):",
+    "Asking an LLM for isolated 0-10 scores across 50 episodes is noisy. To rank the top 12 finalists, I run a round-robin "
+    "tournament (66 pairs, asking 'which clip would you post first?'). Because LLMs have position bias, every pair is tested "
+    "in **both orders** (`A vs B` and `B vs A`, 132 calls total); a clip only gets a win if it wins both directions."
+)
 
-pdf.h1("3. Scale & Unit Economics at Production Volume")
-pdf.p("On all 50 episodes, Stages 1-2 evaluate ~16,600 windows in 2.5 seconds on CPU ($0). Stage 3 makes 200 short LLM calls and Stage 4 makes 132 calls (~332 calls/show, ~140k input + 25k output tokens). Using Gemini Flash-Lite or Flash free/paid tiers, a full 50-episode show costs ~$0.02-$0.05 and runs in ~40 seconds with thread parallelism (and <2s on cached re-runs). At 20 new shows/week, total AI cost is under $1/week.")
+# Section 3
+pdf.section("3. Scaling to Every Show Kuku Makes")
+pdf.para(
+    "Stages 1 and 2 run on all 50 episodes in **2.5 seconds on a laptop CPU for $0**. Stage 3 makes 200 short LLM calls and "
+    "Stage 4 makes 132 calls (332 calls per 50-episode show, ~165k tokens total). Using `gemini-3.1-flash-lite` with parallel "
+    "threads and disk caching, a full 50-episode show finishes in **~40 seconds and costs ~$0.03** (or $0 on the free tier). "
+    "Even at 20 new shows a week, the compute bill is under $1/week, and an editor only reviews the top 10-15 ranked clips "
+    "instead of watching 50 episodes from scratch."
+)
 
-# ============================== PAGE 2 ==============================
+print("Page 1 final_y:", round(pdf.get_y(), 1), "page:", pdf.page_no())
+# ================================== PAGE 2 ==================================
 pdf.add_page()
-pdf.h1("4. Top Ranked Promos: Which to Post First & Why")
-pdf.p("Across all 50 episodes, our pairwise tournament and composite scorer surface three distinct promo archetypes to post first on Reels/TikTok/Shorts (full 100-clip table + transcripts in outputs/promos.md):")
-pdf.bullet("#1 (Post First - Visceral Dungeon Torture): Ep 31, 02:02.00 -> 02:40.00 (38.0s, Score 6.12, 11.0/11 Wins).", "Hook: '[ACTION] Catherine's smug expression freezes... as the blow lands squarely' followed by Juliana's defiance ('If you were truly powerful, Catherine, you wouldn't need me to bow'). Cliffhanger: Catherine torches Juliana's late mother's book and thrusts a searing branding iron inches from Juliana's eyes. Why first: Instant physical conflict in 2s, zero backstory needed to understand captor vs. prisoner, and an unbearable visual cut.")
-pdf.bullet("#2 (Post Second - Class Humiliation & Physical Strike): Ep 24, 00:33.80 -> 01:10.50 (36.7s, Score 6.44, 8.0 Wins).", "Hook: '[ACTION] The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.' Cliffhanger: As Juliana drops to her knees before a soot-filled fireplace, the noblewoman thrusts the crop into young maid Prudence's face: 'Do you want the same punishment?' Why second: Classic Cinderella-trope abuse that hooks in 1.3s and ends on an immediate threat to an innocent bystander.")
-pdf.bullet("#3 (Post Third - Altar Betrayal, Series Premise): Ep 1, 01:47.50 -> 02:17.50 (30.0s, Score 6.27, 8.0 Wins).", "Hook: Clarissa gloating in gold at the altar: 'You are the daughter people tolerate because they have to. I am the daughter they choose.' Cliffhanger: Groom rejects Juliana as 'low value' while Juliana clenches her mother's bridal gown in cold fury as the string drone peaks. Why third: Establishes the core series premise for cold audiences with zero spoilers of later twists.")
-pdf.bullet("#4 & #5 (High-Stakes Conspiracy & Scandal):", "Ep 30 (00:08.80 -> 00:39.80, Score 6.00, 7.5 Wins: 'You have a rat in your cellar, Rupert... you burn them!') and Ep 50 (00:49.80 -> 01:18.50, Score 6.00, 6.0 Wins: maid Agnes catches Lady Catherine in bed with the shirtless priest Father Thomas, gasping in terror before cut to black).")
 
-pdf.h1("5. Quality Checking & Where the Tool Picks Badly")
-pdf.p("Automated Sanity & Human-Labelled Benchmark (eval.py):", "All 100 output promos pass hard boundary checks (0/100 outside 20-60s, 0/100 cutting a spoken line in half). On a stratified 24-clip evaluation set (gold/gold.csv, 11 good / 13 bad), all four variants achieve Precision@6 = 1.00, with ROC-AUC improving from 0.972 (rules only) to 0.979 (rules + learned ML / full LLM) and 0.983 (full offline).")
-pdf.p("Honest Failure Modes (Where Our Tool Picks Badly):", "Inspecting the full 100-clip ranking reveals four concrete weaknesses:")
-pdf.bullet("1. Stage-direction keyword leakage on resolved scenes (Ep 16, 00:41.20 -> 01:23.19, Ranked #7):", "Opens with a great hook (Alexander choking a thug: 'Who sent you?'), but the thug confesses and flees by 00:56. The last 25 seconds are a quiet, tender gaze between Alexander and Juliana. However, because the screenplay's final SOUND FX line literally contains the words 'swelling to a dramatic cliffhanger hold', the rule scorer gives cliff=6.5 and the clip sneaks into the top 10 despite ending on an emotional resolution.")
-pdf.bullet("2. Quiet conversational openers rescued only by huge endings (Ep 50, 00:49.80 -> 01:18.50, Ranked #5):", "Ends on arguably the best scandal cliffhanger in the pack (Agnes witnessing Catherine and the priest), but opens on 'I've told myself that since the dawn in your bedchamber...' (rule hook = 2.0). A real TikTok editor would trim the first 10s or prepend a 2s flash-forward of Agnes's gasp.")
-pdf.bullet("3. Forced quota on low-conflict transition episodes (Ranks #85-#100):", "Because --per-episode 2 forces two picks per episode, quiet world-building episodes (e.g. Ep 8 #100 at 00:50.10 -> 01:18.00, Score 2.56, fireplace herbal chat; Ep 48 #99, Score 3.07) produce flat clips. In production, editors should filter by Score >= 5.5 rather than taking a fixed per-episode quota.")
-pdf.bullet("4. Late-series lore density (Ep 45 #12, Ep 42 #9):", "Even when dramatic, late-episode reveals ('You poisoned my mother. You tortured my wife.') spoil major twists and rely on 40 episodes of buildup.")
+# Section 4
+pdf.section("4. Top Ranked Promos: Which Ones I Would Post First & Why")
+pdf.para(
+    "The full ranked list of 100 promos with transcripts is in `outputs/promos.md`. If I were running user acquisition "
+    "for this show, these are the first five clips I would post:"
+)
+pdf.item(
+    "#1 (Post First) - Ep 31, 02:02.00 -> 02:40.00 (38.0s | Score 6.12 | Tournament: 11/11 Wins):",
+    "Opens on a physical blow landing on Catherine and Juliana's defiant line ('If you were truly powerful, Catherine, you "
+    "wouldn't need me to bow'). Escalates as Catherine burns Juliana's late mother's book and holds a glowing branding iron "
+    "inches from Juliana's eyes. **Why post first:** It went undefeated (11/11) in the pairwise tournament. Anyone scrolling "
+    "understands captor vs. chained prisoner in 2 seconds with zero backstory, and the cut right before the iron touches her "
+    "face forces the viewer to watch what happens next."
+)
+pdf.item(
+    "#2 (Post Second) - Ep 24, 00:33.80 -> 01:10.50 (36.7s | Score 6.44 | Tournament: 8/11 Wins):",
+    "Opens in 1.3s with a noblewoman striking Juliana across the torso with a riding crop ('You are a maid. Not a physician. "
+    "Not a lady.'). She forces Juliana onto her knees to scrub a soot-blackened fireplace, then whips the crop into young maid "
+    "Prudence's face: 'Do you want the same punishment?' **Why post second:** Highest overall score (6.44); instant physical "
+    "hook and classic Cinderella-style mistreatment."
+)
+pdf.item(
+    "#3 (Post Third) - Ep 1, 01:47.50 -> 02:17.50 (30.0s | Score 6.27 | Tournament: 8/11 Wins):",
+    "Opens on Juliana's sister Clarissa gloating in a gold gown at the altar ('You are the daughter people tolerate because "
+    "they have to. I am the daughter they choose.'). The groom calls Juliana 'low value' in front of the church as Juliana "
+    "clenches her mother's wedding dress in cold fury. **Why post third:** Sets up the core premise of the entire series "
+    "for cold audiences without spoiling any later twists."
+)
+pdf.item(
+    "#4 & #5 - Ep 30 (00:08.80 -> 00:39.80, 31.0s) & Ep 50 (00:49.80 -> 01:18.50, 28.7s):",
+    "Ep 30 hooks with a conspiracy line ('You have a rat in your cellar, Rupert') and ends on an order to murder Juliana "
+    "because she knows the Duchess was poisoned. Ep 50 ends on maid Agnes peeking through a cracked door, seeing Lady "
+    "Catherine in bed with the shirtless priest Father Thomas, and gasping in terror before an abrupt cut to black."
+)
 
-pdf.h1("6. AI Tools Used & Where AI Got It Wrong During Development")
-pdf.p("Tools used: Claude / Gemini in Antigravity IDE for architecture design, scikit-learn model iteration, and Gemini 3.1 Flash-Lite via REST API for Stage 3-4 runtime scoring.")
-pdf.bullet("Mistake 1 - Confounded Self-Supervised Labels:", "In our first version of Novelty 1, TF-IDF + Logistic Regression achieved a suspiciously high 0.85+ AUC, and its top features were 'ACT' (action block) and plot words like 'ten days'. Inspecting the data showed two bugs: (a) episode edges almost always start/end on an ACTION block, so random mid-episode dialogue negatives taught the model 'ACTION = hook'; and (b) roughly 40% of episode endings in this romance show are tender fireplace moments (Ep 6, 7, 8), not cliffhangers! Fix: We matched negative samples by event kind, filtered positive training edges by the rule median, and shipped only the 14 show-agnostic structural features.")
-pdf.bullet("Mistake 2 - LLM List-Padding in Curiosity-Gap Prompting:", "In our first test of Novelty 2 on Episode 1, Gemini returned exactly 4 past_confusions and 4 future_questions on every single clip (asking lore trivia like 'Why is she wearing her mother's gown?'), which pegged our count formula to 8.0/10 across the board. Fix: We tightened the prompt to restrict past_confusions strictly to plot-breaking missing context (returning [] when self-explanatory) and blended count ratios with explicit 0-10 clarity/pull ratings.")
+# Section 5
+pdf.section("5. Checking Quality & Where My Tool Picks Badly")
+pdf.para(
+    "To check quality objectively (`eval.py`), I first ran automated sanity tests across all 100 output promos: **100/100** "
+    "stay strictly inside 20-60s and **0/100** cut a dialogue line in half. Second, I built a 24-clip benchmark (`gold/gold.csv`, "
+    "8 top, 8 middle, 8 bottom, shuffled blind) and labelled each clip 1 (good promo) or 0 (bad promo). All variants hit "
+    "**Precision@6 = 1.00**, while ROC-AUC improved from **0.972** (rules only) to **0.979-0.983** when adding the learned "
+    "model and curiosity-gap score."
+)
+pdf.para("More importantly, reading through the 100 outputs showed four clear places where the tool picks badly:")
+pdf.item(
+    "1. Tricked by the word 'cliffhanger' in stage directions (Ep 16, 00:41.20 -> 01:23.19, Ranked #7):",
+    "This clip starts great (Alexander choking a thug against a wall: 'Who sent you?'), but the thug confesses and runs away "
+    "at 00:56. The last 25 seconds are just Alexander and Juliana looking into each other's eyes. However, because the writer "
+    "wrote `cello melody swelling to a dramatic cliffhanger hold` in the final SOUND FX line, my rule scorer gave it a high "
+    "cliffhanger score even though the scene's tension was already resolved."
+)
+pdf.item(
+    "2. Weak opening rescued by a massive ending (Ep 50, 00:49.80 -> 01:18.50, Ranked #5):",
+    "The ending (Agnes catching Catherine and the priest in bed) is a 10/10 scandal cliffhanger, so the clip ranks #5. "
+    "But the first 3 seconds ('I've told myself that since the dawn in your bedchamber...') is a quiet, slow opener "
+    "(rule hook = 2.0). A human editor would trim the first 8 seconds or put a 2-second flash of Agnes's gasp at the front."
+)
+pdf.item(
+    "3. Forcing 2 picks on quiet filler episodes (Ranks #85 to #100):",
+    "Because `--per-episode 2` forces two clips from every episode, quiet transition episodes (like Ep 8 at #100, Score 2.56, "
+    "where they calmly discuss herbs by the fireplace) produce boring clips. In real use, we should filter by `Score >= 5.5` "
+    "instead of keeping a fixed number per episode."
+)
+pdf.item(
+    "4. Heavy late-season spoilers (Ep 45 at #12, Ep 42 at #9):",
+    "Clips from Episodes 42-45 have high drama ('You poisoned my mother. You tortured my wife.'), but they give away the "
+    "show's biggest identity reveal and lean on 40 episodes of plot."
+)
+
+# Section 6
+pdf.section("6. AI Tools Used & Two Places Where AI Got It Wrong")
+pdf.para(
+    "I used Claude and Gemini inside the Antigravity IDE to help write and debug the Python pipeline and `scikit-learn` "
+    "training code, and `gemini-3.1-flash-lite` via REST API for the runtime Cold-Viewer and Tournament steps. Two specific "
+    "things went wrong during development that I had to catch and fix:"
+)
+pdf.item(
+    "1. My first ML model cheated on a data confound:",
+    "When I first trained the self-supervised classifier (`learn.py`), TF-IDF + Logistic Regression got an 0.85+ AUC that "
+    "looked great on paper. When I printed its top weights, I saw it was just latching onto the token `ACT` (because episodes "
+    "almost always start and end on an `ACTION` line, whereas random mid-episode lines are mostly dialogue) and plot words "
+    "like `'ten days'`. Worse, reading Episodes 6, 7, and 8 showed that ~40% of episode endings in this romance show are "
+    "warm, peaceful moments by the fire, not cliffhangers! I fixed this by matching negative samples by event type, filtering "
+    "positive training edges with the rule median, and shipping only the 14 show-agnostic structural features."
+)
+pdf.item(
+    "2. Gemini padded lists in my first Curiosity-Gap prompt:",
+    "In my first test of `judge.py` on Episode 1, I asked Gemini to list `past_confusions` and `future_questions`. Trying to "
+    "be helpful, the model invented 4 items for every single clip (counting normal curiosity like 'Why is she wearing her "
+    "mother's dress?' as confusion), which pegged my count formula at 8.0/10 across the board. I rewrote the prompt so "
+    "`past_confusions` only counts plot-breaking missing context (returning `[]` when a scene is self-explanatory) and "
+    "combined the counts with explicit 0-10 clarity and pull ratings."
+)
 
 out_path = "solution_doc.pdf"
 pdf.output(out_path)
-print("Wrote", out_path, "pages:", pdf.page_no())
+print("Wrote", out_path, "pages:", pdf.page_no(), "final_y:", round(pdf.get_y(), 1))
